@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="IPOkemon_Raul_Calzado.InicioPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:IPOkemon_Raul_Calzado"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <local:ucPiplup x:Name="ucPiplup" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="1" Grid.Row="1"/>
+        <TextBlock x:Name="tbMain" HorizontalAlignment="Center" Text="Bienvenido a IPOKEMON" Foreground="Black" FocusVisualPrimaryBrush="Black"/>
+    </Grid>
+</Page>
