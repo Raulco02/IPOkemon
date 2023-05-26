@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>LAPTOP-A3UTIJ9R</Machine>
-    <WindowsUser>Raúl</WindowsUser>
+    <Machine>DESKTOP-N8LKULU</Machine>
+    <WindowsUser>pedri</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>3f825ac2-da73-44ae-880d-580a61e8ac56</PackageIdentityName>
     <PackageIdentityPublisher>CN=Raúl</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>680A3394B4709F80E74BC331E91931D9EE50D9806A66FDB6F49CCBC07E730820</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>71D4A47FABC065EAD79046A2ED99F937A91ACA8CC261933B44A697E8FB7D5AE1</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>3f825ac2-da73-44ae-880d-580a61e8ac56_1.0.0.0_x86__vxgt0h13fgdt8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>3f825ac2-da73-44ae-880d-580a61e8ac56_vxgt0h13fgdt8!App</RegisteredUserModeAppID>
     <RegisteredPackageID>3f825ac2-da73-44ae-880d-580a61e8ac56</RegisteredPackageID>
@@ -27,22 +27,22 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-23T19:58:31.486</Modified>
+      <Modified>2023-05-26T18:31:36.308</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\IPOkemon Raul Calzado.exe">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\IPOkemon Raul Calzado.exe">
       <PackagePath>entrypoint\IPOkemon Raul Calzado.exe</PackagePath>
-      <Modified>2023-05-23T19:58:29.738</Modified>
+      <Modified>2023-05-26T18:31:35.029</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.web.webview2\1.0.1264.42\build\..\runtimes\win-x86\native_uap\Microsoft.Web.WebView2.Core.dll">
+    <AppxPackagedFile Include="C:\Users\pedri\.nuget\packages\microsoft.web.webview2\1.0.1264.42\build\..\runtimes\win-x86\native_uap\Microsoft.Web.WebView2.Core.dll">
       <PackagePath>Microsoft.Web.WebView2.Core.dll</PackagePath>
       <Modified>2022-06-28T22:02:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.web.webview2\1.0.1264.42\runtimes\win-x86\native\WebView2Loader.dll">
+    <AppxPackagedFile Include="C:\Users\pedri\.nuget\packages\microsoft.web.webview2\1.0.1264.42\runtimes\win-x86\native\WebView2Loader.dll">
       <PackagePath>WebView2Loader.dll</PackagePath>
       <Modified>2022-06-28T22:03:22.000</Modified>
     </AppxPackagedFile>
@@ -52,214 +52,218 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2020-12-02T03:52:00.000</Modified>
+      <Modified>2020-12-02T02:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.web.webview2\1.0.1264.42\lib\Microsoft.Web.WebView2.Core.winmd">
+    <AppxPackagedFile Include="C:\Users\pedri\.nuget\packages\microsoft.web.webview2\1.0.1264.42\lib\Microsoft.Web.WebView2.Core.winmd">
       <PackagePath>Microsoft.Web.WebView2.Core.winmd</PackagePath>
       <Modified>2022-06-28T22:02:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\corazon.png">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\corazon.png">
       <PackagePath>Assets\corazon.png</PackagePath>
-      <Modified>2023-03-11T11:24:51.121</Modified>
+      <Modified>2023-05-26T18:28:48.377</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\emoji_atacar.png">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\emoji_atacar.png">
       <PackagePath>Assets\emoji_atacar.png</PackagePath>
-      <Modified>2023-05-23T16:10:40.911</Modified>
+      <Modified>2023-05-26T18:28:48.377</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\emoji_descansar.png">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\emoji_descansar.png">
       <PackagePath>Assets\emoji_descansar.png</PackagePath>
-      <Modified>2023-05-23T16:10:40.871</Modified>
+      <Modified>2023-05-26T18:28:48.377</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\emoji_escudo.png">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\emoji_escudo.png">
       <PackagePath>Assets\emoji_escudo.png</PackagePath>
-      <Modified>2023-05-23T16:10:40.877</Modified>
+      <Modified>2023-05-26T18:28:48.377</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\emoji_muerte.png">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\emoji_muerte.png">
       <PackagePath>Assets\emoji_muerte.png</PackagePath>
-      <Modified>2023-05-23T16:10:40.882</Modified>
+      <Modified>2023-05-26T18:28:48.377</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\icono_energia.png">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\icono_energia.png">
       <PackagePath>Assets\icono_energia.png</PackagePath>
-      <Modified>2023-05-23T16:10:40.893</Modified>
+      <Modified>2023-05-26T18:28:48.382</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\icono_pocion_energia.png">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\icono_pocion_energia.png">
       <PackagePath>Assets\icono_pocion_energia.png</PackagePath>
-      <Modified>2023-05-23T16:10:40.899</Modified>
+      <Modified>2023-05-26T18:28:48.382</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\icono_pocion_vida.png">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\icono_pocion_vida.png">
       <PackagePath>Assets\icono_pocion_vida.png</PackagePath>
-      <Modified>2023-05-23T16:10:40.904</Modified>
+      <Modified>2023-05-26T18:28:48.382</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\icono_vida.png">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\icono_vida.png">
       <PackagePath>Assets\icono_vida.png</PackagePath>
-      <Modified>2023-05-23T16:10:40.907</Modified>
+      <Modified>2023-05-26T18:28:48.387</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\ray.png">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\logo_pokemon.png">
+      <PackagePath>Assets\logo_pokemon.png</PackagePath>
+      <Modified>2023-05-26T18:29:46.332</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\ray.png">
       <PackagePath>Assets\ray.png</PackagePath>
-      <Modified>2023-03-11T11:24:51.086</Modified>
+      <Modified>2023-05-26T18:28:48.387</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\red-potion.png">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\red-potion.png">
       <PackagePath>Assets\red-potion.png</PackagePath>
-      <Modified>2023-03-11T11:24:51.093</Modified>
+      <Modified>2023-05-26T18:28:48.392</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\yellow-potion.png">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\yellow-potion.png">
       <PackagePath>Assets\yellow-potion.png</PackagePath>
-      <Modified>2023-03-11T11:24:51.100</Modified>
+      <Modified>2023-05-26T18:28:48.392</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2023-02-16T15:30:44.287</Modified>
+      <Modified>2023-05-26T18:28:48.372</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-16T15:30:44.291</Modified>
+      <Modified>2023-05-26T18:28:48.372</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-16T15:30:44.291</Modified>
+      <Modified>2023-05-26T18:28:48.372</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-16T15:30:44.292</Modified>
+      <Modified>2023-05-26T18:28:48.372</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-16T15:30:44.293</Modified>
+      <Modified>2023-05-26T18:28:48.372</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-16T15:30:44.294</Modified>
+      <Modified>2023-05-26T18:28:48.372</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-16T15:30:44.295</Modified>
+      <Modified>2023-05-26T18:28:48.372</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\fondo_bosque.jpg">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\fondo_bosque.jpg">
       <PackagePath>Assets\fondo_bosque.jpg</PackagePath>
-      <Modified>2023-05-23T16:10:40.887</Modified>
+      <Modified>2023-05-26T18:28:48.382</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\mountain.jpg">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\mountain.jpg">
       <PackagePath>Assets\mountain.jpg</PackagePath>
-      <Modified>2023-03-11T11:24:51.077</Modified>
+      <Modified>2023-05-26T18:28:48.387</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2023-03-11T11:19:03.038</Modified>
+      <Modified>2023-05-26T18:28:48.397</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\IPOkemon Raul Calzado.xr.xml">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\IPOkemon Raul Calzado.xr.xml">
       <PackagePath>IPOkemon Raul Calzado.xr.xml</PackagePath>
-      <Modified>2023-05-23T19:57:23.823</Modified>
+      <Modified>2023-05-26T18:31:34.808</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-05-23T19:58:29.504</Modified>
+      <Modified>2023-05-26T18:31:34.860</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\AcercaPage.xbf">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\AcercaPage.xbf">
       <PackagePath>AcercaPage.xbf</PackagePath>
-      <Modified>2023-05-23T19:58:29.504</Modified>
+      <Modified>2023-05-26T18:31:34.860</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\CombatePage.xbf">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\CombatePage.xbf">
       <PackagePath>CombatePage.xbf</PackagePath>
-      <Modified>2023-05-23T19:58:29.504</Modified>
+      <Modified>2023-05-26T18:31:34.860</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\InfoPiplupPage.xbf">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\InfoPiplupPage.xbf">
       <PackagePath>InfoPiplupPage.xbf</PackagePath>
-      <Modified>2023-05-23T19:58:29.504</Modified>
+      <Modified>2023-05-26T18:31:34.861</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\InicioPage.xbf">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\InicioPage.xbf">
       <PackagePath>InicioPage.xbf</PackagePath>
-      <Modified>2023-05-23T19:58:29.504</Modified>
+      <Modified>2023-05-26T18:31:34.861</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-05-23T19:58:29.504</Modified>
+      <Modified>2023-05-26T18:31:34.861</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\PokedexPage.xbf">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\PokedexPage.xbf">
       <PackagePath>PokedexPage.xbf</PackagePath>
-      <Modified>2023-05-23T19:58:29.505</Modified>
+      <Modified>2023-05-26T18:31:34.861</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\SeleccionPage.xbf">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\SeleccionPage.xbf">
       <PackagePath>SeleccionPage.xbf</PackagePath>
-      <Modified>2023-05-23T19:58:29.505</Modified>
+      <Modified>2023-05-26T18:31:34.862</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\ucGengar.xbf">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\ucGengar.xbf">
       <PackagePath>ucGengar.xbf</PackagePath>
-      <Modified>2023-05-23T19:58:29.491</Modified>
+      <Modified>2023-05-26T18:31:34.845</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\ucPiplup.xbf">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\ucPiplup.xbf">
       <PackagePath>ucPiplup.xbf</PackagePath>
-      <Modified>2023-05-23T19:58:29.504</Modified>
+      <Modified>2023-05-26T18:31:34.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
-      <Modified>2020-12-02T03:59:30.000</Modified>
+      <Modified>2020-12-02T02:59:30.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2020-12-02T01:52:06.000</Modified>
+      <Modified>2020-12-02T00:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+    <AppxPackagedFile Include="C:\Users\pedri\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2022-12-16T01:17:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-23T19:13:22.959</Modified>
+      <Modified>2023-05-26T18:31:02.332</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\Core\IPOkemon Raul Calzado.exe">
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\Core\IPOkemon Raul Calzado.exe">
       <PackagePath>IPOkemon Raul Calzado.exe</PackagePath>
-      <Modified>2023-05-23T19:58:31.476</Modified>
+      <Modified>2023-05-26T18:31:36.302</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx">
+    <ResolvedSDKReference Include="C:\Users\pedri\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx">
       <Name>Microsoft.UI.Xaml.2.8</Name>
       <Version>8.2212.15002.0</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2212.15002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <AppxLocation>C:\Users\pedri\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx">
+    <ResolvedSDKReference Include="C:\Users\pedri\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx">
       <Name>Microsoft.UI.Xaml.2.8</Name>
       <Version>8.2212.15002.0</Version>
       <Architecture>Win32</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2212.15002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <AppxLocation>C:\Users\pedri\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx">
+    <ResolvedSDKReference Include="C:\Users\pedri\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx">
       <Name>Microsoft.UI.Xaml.2.8</Name>
       <Version>8.2212.15002.0</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2212.15002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <AppxLocation>C:\Users\pedri\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.8.appx">
+    <ResolvedSDKReference Include="C:\Users\pedri\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.8.appx">
       <Name>Microsoft.UI.Xaml.2.8</Name>
       <Version>8.2212.15002.0</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2212.15002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <AppxLocation>C:\Users\pedri\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.8.appx">
+    <ResolvedSDKReference Include="C:\Users\pedri\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.8.appx">
       <Name>Microsoft.UI.Xaml.2.8</Name>
       <Version>8.2212.15002.0</Version>
       <Architecture>arm64</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2212.15002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <AppxLocation>C:\Users\pedri\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>

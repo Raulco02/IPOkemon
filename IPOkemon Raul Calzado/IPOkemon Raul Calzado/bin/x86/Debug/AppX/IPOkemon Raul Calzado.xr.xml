@@ -23,6 +23,13 @@
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="Text" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="IsEnabled" />
+      <RootProperty Name="IsReadOnly" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="IPOkemon_Raul_Calzado.AcercaPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
@@ -41,10 +48,10 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="FontWeight" />
-      <RootProperty Name="Foreground" />
-      <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="FontFamily" />
+      <RootProperty Name="FocusVisualPrimaryBrush" />
+      <RootProperty Name="Foreground" />
       <RootProperty Name="FontStyle" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="Inlines" />
@@ -76,12 +83,22 @@
       <RootProperty Name="Text" />
     </RootType>
     <RootType FullName="IPOkemon_Raul_Calzado.InfoPiplupPage" />
-    <RootType FullName="IPOkemon_Raul_Calzado.ucPiplup">
+    <RootType FullName="Windows.UI.Xaml.Controls.Viewbox">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Child" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Source" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Height" />
+      <RootProperty Name="Stretch" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootEvent Name="PointerPressed" />
     </RootType>
     <RootType FullName="IPOkemon_Raul_Calzado.InicioPage" />
@@ -130,6 +147,14 @@
     <RootType FullName="Windows.UI.Xaml.Controls.ItemsWrapGrid">
       <RootProperty Name="MaximumRowsOrColumns" />
       <RootProperty Name="Orientation" />
+    </RootType>
+    <RootType FullName="IPOkemon_Raul_Calzado.ucPiplup">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootEvent Name="PointerPressed" />
     </RootType>
     <RootType FullName="IPOkemon_Raul_Calzado.ucGengar">
       <RootProperty Name="HorizontalAlignment" />
@@ -197,23 +222,6 @@
       <RootProperty Name="Value" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Visibility" />
-    <RootType FullName="Windows.UI.Xaml.Controls.Image">
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Stretch" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Source" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="FocusVisualPrimaryBrush" />
-      <RootEvent Name="PointerPressed" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Viewbox">
-      <RootProperty Name="Child" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="HorizontalAlignment" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ProgressBar">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Width" />
@@ -226,7 +234,6 @@
       <RootProperty Name="VerticalAlignment" />
       <RootEvent Name="ValueChanged" />
     </RootType>
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />

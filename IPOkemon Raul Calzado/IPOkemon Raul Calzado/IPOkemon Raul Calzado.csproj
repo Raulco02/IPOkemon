@@ -164,6 +164,7 @@
     <Content Include="Assets\icono_pocion_energia.png" />
     <Content Include="Assets\icono_pocion_vida.png" />
     <Content Include="Assets\icono_vida.png" />
+    <Content Include="Assets\logo_pokemon.png" />
     <Content Include="Assets\mountain.jpg" />
     <Content Include="Assets\ray.png" />
     <Content Include="Assets\red-potion.png" />
