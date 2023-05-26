@@ -24,9 +24,6 @@ namespace IPOkemon_Raul_Calzado
         public ucGengar()
         {
             this.InitializeComponent();
-            verFondo(true);
-            verBarras(true);
-            verAcciones(true);
         }
 
         private void imgPocionVida_PointerPressed(object sender, PointerRoutedEventArgs e)

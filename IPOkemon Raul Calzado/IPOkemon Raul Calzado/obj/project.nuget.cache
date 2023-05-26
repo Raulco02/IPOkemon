@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D077IWEXH3Gg2ZNlWT4X0CmyCpz/RvLxTwrECLut5FtVo+nI1diNpexjvh0Xhzla6//XUdnayCxGYrCd7hwOfw==",
+  "dgSpecHash": "jXHkRSHP+WisUTGzZZDSFdRBj/wnPbAWQvbCG3saYmGCYNBvMTFnczfoEOEOOBZQ/TnQwDNGBzg+IhEqIrMamQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pedri\\OneDrive\\Documentos\\IPOkemon\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado.csproj",
+  "projectFilePath": "C:\\Users\\pedri\\OneDrive\\Escritorio\\IPOkemon\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.12-rel-31116-00\\microsoft.net.native.compiler.2.2.12-rel-31116-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.14\\microsoft.net.uwpcoreruntimesdk.2.2.14.nupkg.sha512",

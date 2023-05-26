@@ -125,8 +125,8 @@
     <Compile Include="CombatePage.xaml.cs">
       <DependentUpon>CombatePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="InfoPiplupPage.xaml.cs">
-      <DependentUpon>InfoPiplupPage.xaml</DependentUpon>
+    <Compile Include="InfoPage.xaml.cs">
+      <DependentUpon>InfoPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="InicioPage.xaml.cs">
       <DependentUpon>InicioPage.xaml</DependentUpon>
@@ -137,6 +137,7 @@
     <Compile Include="PokedexPage.xaml.cs">
       <DependentUpon>PokedexPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pokemon.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SeleccionPage.xaml.cs">
       <DependentUpon>SeleccionPage.xaml</DependentUpon>
@@ -160,12 +161,14 @@
     <Content Include="Assets\emoji_escudo.png" />
     <Content Include="Assets\emoji_muerte.png" />
     <Content Include="Assets\fondo_bosque.jpg" />
+    <Content Include="Assets\gengar.png" />
     <Content Include="Assets\icono_energia.png" />
     <Content Include="Assets\icono_pocion_energia.png" />
     <Content Include="Assets\icono_pocion_vida.png" />
     <Content Include="Assets\icono_vida.png" />
     <Content Include="Assets\logo_pokemon.png" />
     <Content Include="Assets\mountain.jpg" />
+    <Content Include="Assets\piplup.png" />
     <Content Include="Assets\ray.png" />
     <Content Include="Assets\red-potion.png" />
     <Content Include="Assets\yellow-potion.png" />
@@ -191,7 +194,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="InfoPiplupPage.xaml">
+    <Page Include="InfoPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

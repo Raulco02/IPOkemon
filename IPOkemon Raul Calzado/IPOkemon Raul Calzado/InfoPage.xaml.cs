@@ -11,6 +11,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
@@ -26,5 +27,23 @@ namespace IPOkemon_Raul_Calzado
         {
             this.InitializeComponent();
         }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            base.OnNavigatedTo(e);
+
+            if (e.Parameter != null && e.Parameter is Pokemon)
+            {
+                Pokemon pokemon = (Pokemon)e.Parameter;
+                this.tbNombrePokemon.Text = pokemon.nombre;
+                this.tbDescripcionPokemon.Text = pokemon.descripcion;
+                this.tbAlturaPokemon.Text = pokemon.altura + " m";
+                this.tbPesoPokemon.Text = pokemon.peso + " kg";
+                //Uri foto = new Uri(pokemon.imagen_pokemon, UriKind.Relative);
+                //imgInfoPokemon.Source = new BitmapImage(foto);
+                // Revisar esto y meter los tipos
+            }
+        }
+
     }
 }

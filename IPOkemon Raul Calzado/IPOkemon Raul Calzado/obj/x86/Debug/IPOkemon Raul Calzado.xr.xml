@@ -49,10 +49,10 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="FontWeight" />
       <RootProperty Name="TextWrapping" />
+      <RootProperty Name="FontStyle" />
       <RootProperty Name="FontFamily" />
       <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootProperty Name="Foreground" />
-      <RootProperty Name="FontStyle" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="Inlines" />
       <RootEvent Name="PointerPressed" />
@@ -73,23 +73,12 @@
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="IPOkemon_Raul_Calzado.CombatePage" />
-    <RootType FullName="Windows.UI.Xaml.Controls.RichTextBlock">
-      <RootProperty Name="Blocks" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Documents.Paragraph">
-      <RootProperty Name="Inlines" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Documents.Run">
-      <RootProperty Name="Text" />
-    </RootType>
-    <RootType FullName="IPOkemon_Raul_Calzado.InfoPiplupPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.Viewbox">
       <RootProperty Name="Margin" />
       <RootProperty Name="Child" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="HorizontalAlignment" />
     </RootType>
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
@@ -101,6 +90,8 @@
       <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootEvent Name="PointerPressed" />
     </RootType>
+    <RootType FullName="IPOkemon_Raul_Calzado.InfoPiplupPage" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
     <RootType FullName="IPOkemon_Raul_Calzado.InicioPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.Border">
       <RootProperty Name="HorizontalAlignment" />
@@ -162,6 +153,7 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
+      <RootEvent Name="PointerPressed" />
     </RootType>
     <RootType FullName="IPOkemon_Raul_Calzado.PokedexPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.FlipView">
@@ -321,6 +313,9 @@
       <RootProperty Name="RenderTransform" />
       <RootProperty Name="UseLayoutRounding" />
       <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Documents.Run">
+      <RootProperty Name="Text" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Documents.LineBreak" />
     <RootType FullName="Windows.UI.Xaml.Media.Animation.ColorAnimation">
