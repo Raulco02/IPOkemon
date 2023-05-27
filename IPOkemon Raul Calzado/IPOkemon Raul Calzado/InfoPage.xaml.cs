@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Core;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -31,6 +32,7 @@ namespace IPOkemon_Raul_Calzado
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             base.OnNavigatedTo(e);
+            SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
 
             if (e.Parameter != null && e.Parameter is Pokemon)
             {
@@ -40,7 +42,7 @@ namespace IPOkemon_Raul_Calzado
                 this.tbAlturaPokemon.Text = pokemon.altura + " m";
                 this.tbPesoPokemon.Text = pokemon.peso + " kg";
                 //Uri foto = new Uri(pokemon.imagen_pokemon, UriKind.Relative);
-                //imgInfoPokemon.Source = new BitmapImage(foto);
+                //this.imgInfoPokemon.Source = new BitmapImage(foto);
                 // Revisar esto y meter los tipos
             }
         }

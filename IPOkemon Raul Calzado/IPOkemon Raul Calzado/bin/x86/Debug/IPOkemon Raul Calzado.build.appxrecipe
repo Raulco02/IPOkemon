@@ -43,6 +43,9 @@
     <AppxPackagedFile Include="C:\Users\pedri\.nuget\packages\microsoft.web.webview2\1.0.1264.42\lib\Microsoft.Web.WebView2.Core.winmd">
       <PackagePath>Microsoft.Web.WebView2.Core.winmd</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\gengar.png">
+      <PackagePath>Assets\gengar.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\corazon.png">
       <PackagePath>Assets\corazon.png</PackagePath>
     </AppxPackagedFile>
@@ -57,9 +60,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\emoji_muerte.png">
       <PackagePath>Assets\emoji_muerte.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\gengar.png">
-      <PackagePath>Assets\gengar.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\icono_energia.png">
       <PackagePath>Assets\icono_energia.png</PackagePath>

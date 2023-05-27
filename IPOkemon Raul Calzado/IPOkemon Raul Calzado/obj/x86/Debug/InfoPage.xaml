@@ -33,16 +33,16 @@
             <TextBlock x:ConnectionId='4' x:Name="tbDescripcionPokemon" TextWrapping="Wrap" Text="" Width="260" FontSize="10" Height="34" FontStyle="Italic"/>
         </Viewbox>
         <Viewbox Grid.Column="1" Grid.Row="3" Margin="0,0,12,3">
-            <TextBlock TextWrapping="Wrap" Text="Altura" Width="80" HorizontalAlignment="Left"/>
+            <TextBlock TextWrapping="Wrap" Text="Altura" Width="95" HorizontalAlignment="Left"/>
         </Viewbox>
         <Viewbox Grid.Column="2" Grid.Row="3" Margin="0,0,0,3">
-            <TextBlock TextWrapping="Wrap" Text="Peso" Width="79"/>
+            <TextBlock TextWrapping="Wrap" Text="Peso" Width="92"/>
         </Viewbox>
         <Viewbox Grid.Column="1" Grid.Row="4">
-            <TextBlock x:ConnectionId='3' x:Name="tbAlturaPokemon" TextWrapping="Wrap" Text="TextBlock" Width="114"/>
+            <TextBlock x:ConnectionId='3' x:Name="tbAlturaPokemon" TextWrapping="Wrap" Text="TextBlock" Width="134"/>
         </Viewbox>
         <Viewbox Grid.Column="2" Grid.Row="4">
-            <TextBlock x:ConnectionId='2' x:Name="tbPesoPokemon" TextWrapping="Wrap" Text="TextBlock" Width="109"/>
+            <TextBlock x:ConnectionId='2' x:Name="tbPesoPokemon" TextWrapping="Wrap" Text="TextBlock" Width="127"/>
         </Viewbox>
 
 

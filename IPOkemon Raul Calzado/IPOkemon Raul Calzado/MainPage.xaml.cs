@@ -30,29 +30,40 @@ namespace IPOkemon_Raul_Calzado
             this.InitializeComponent();
             fmMain.Navigate(typeof(InicioPage));
             Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().SetPreferredMinSize(new Size(320, 320));
-            Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().VisibleBoundsChanged+= MainPage_VisibleBoundsChanged;
+            Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().VisibleBoundsChanged += MainPage_VisibleBoundsChanged;
+
+            SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Collapsed;
+            SystemNavigationManager.GetForCurrentView().BackRequested += MainPage_BackRequested;
         }
-        private void mostrarBotonVolver()
+
+        private void MainPage_BackRequested(object sender, BackRequestedEventArgs e)
         {
-            var currentView = SystemNavigationManager.GetForCurrentView();
-            if (fmMain.CanGoBack)
+            var currentPage = fmMain.Content as Page;
+            if (currentPage is PokedexPage || currentPage is CombatePage || currentPage is AcercaPage)
             {
-                currentView.AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
+                fmMain.Navigate(typeof(InicioPage));
+                e.Handled = true;
+            }
+            else if (fmMain.CanGoBack)
+            {
+                fmMain.GoBack();
+                e.Handled = true;
+            }
+        }
+
+        private void fmMain_Navigated(object sender, NavigationEventArgs e)
+        {
+            var currentPage = fmMain.Content as Page;
+            if (currentPage is PokedexPage || currentPage is CombatePage || currentPage is AcercaPage)
+            {
+                SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
             }
             else
             {
-                currentView.AppViewBackButtonVisibility = AppViewBackButtonVisibility.Collapsed;
+                SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Collapsed;
             }
+        }
 
-            currentView.BackRequested += opcionVolver;
-        }
-        private void opcionVolver(object sender, BackRequestedEventArgs e)
-        {
-            if (fmMain.BackStack.Any())
-            {
-                fmMain.GoBack();
-            }
-        }
         private void irPokedex(object sender, RoutedEventArgs e)
         {
             fmMain.Navigate(typeof(PokedexPage));
@@ -68,11 +79,6 @@ namespace IPOkemon_Raul_Calzado
         private void irInicio(object sender, RoutedEventArgs e)
         {
             fmMain.Navigate(typeof(InicioPage));
-        }
-
-        private void fmMain_Navigated(object sender, NavigationEventArgs e)
-        {
-            mostrarBotonVolver();
         }
 
         private void btnCompactar_Click(object sender, RoutedEventArgs e)
