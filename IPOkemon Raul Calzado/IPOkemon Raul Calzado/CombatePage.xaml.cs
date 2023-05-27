@@ -5,7 +5,6 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
-using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -18,42 +17,45 @@ using Windows.UI.Xaml.Navigation;
 
 namespace IPOkemon_Raul_Calzado
 {
-    /// <summary>
-    /// Una página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
-    /// </summary>
+    public class CombateViewModel
+    {
+        public Control Luchador1 { get; set; }
+        public Control Luchador2 { get; set; }
+    }
     public sealed partial class CombatePage : Page
     {
+        public Control luchador1;
+        public Control luchador2;
         public CombatePage()
         {
             this.InitializeComponent();
-            //Previo, ver si se puede usar
-            //ApplicationView.GetForCurrentView().VisibleBoundsChanged += UcRatingText_VisibleBoundsChanged;
+            var viewModel = new CombateViewModel()
+            {
+                Luchador1 = luchador1,
+                Luchador2 = luchador2
+            };
+
+            DataContext = viewModel;
         }
 
-        private void btn1jug_Click(object sender, RoutedEventArgs e)
+        protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            Frame aux = (Frame)this.Parent;
-            aux.Navigate(typeof(SeleccionPage));
+            base.OnNavigatedTo(e);
+
+            // Obtener el control de usuario pasado como parámetro
+            Control[] luchadores = e.Parameter as Control[];
+            
+            luchador1 = luchadores[0];
+            luchador2 = luchadores[1];
+            luchador2.GetType().GetMethod("verAcciones")?.Invoke(luchador2, new object[] { false });
+
+            var viewModel = new CombateViewModel()
+            {
+                Luchador1 = luchador1,
+                Luchador2 = luchador2
+            };
+
+            DataContext = viewModel;
         }
-        /* Previo, ver si se puede usar
-private void UcRatingText_VisibleBoundsChanged(ApplicationView sender, object args)
-{
-   var Width = ApplicationView.GetForCurrentView().VisibleBounds.Width;
-   if (Width >= 600)
-   {
-       RelativePanel.SetBelow(tbPokemon, null);
-       RelativePanel.SetRightOf(tbPokemon, rcStars);
-       RelativePanel.SetAlignVerticalCenterWith(tbPokemon, rcStars);
-       RelativePanel.SetAlignVerticalCenterWithPanel(rcStars, true);
-   }
-   else
-   {
-       RelativePanel.SetRightOf(tbPokemon, null);
-       RelativePanel.SetBelow(tbPokemon, rcStars);
-       RelativePanel.SetAlignVerticalCenterWith(tbPokemon, null);
-       RelativePanel.SetAlignVerticalCenterWithPanel(rcStars, false);
-   }
-}
-*/
     }
 }

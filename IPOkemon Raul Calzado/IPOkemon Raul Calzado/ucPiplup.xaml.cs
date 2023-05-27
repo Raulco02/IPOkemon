@@ -25,6 +25,7 @@ namespace IPOkemon_Raul_Calzado
         DispatcherTimer dtTime;
         bool cansado;
         bool alasParadas;
+        String Name = "Piplup";
         public ucPiplup()
         {
             this.InitializeComponent();
@@ -82,7 +83,7 @@ namespace IPOkemon_Raul_Calzado
             }
         }
 
-        public void verBotonesAtaques(bool verbotonesAtaques)
+        public void verAcciones(bool verbotonesAtaques)
         {
             if (!verbotonesAtaques)
             {

@@ -22,9 +22,9 @@ namespace IPOkemon_Raul_Calzado
     /// <summary>
     /// Una página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
     /// </summary>
-    public sealed partial class InfoPiplupPage : Page
+    public sealed partial class InfoPage : Page
     {
-        public InfoPiplupPage()
+        public InfoPage()
         {
             this.InitializeComponent();
         }

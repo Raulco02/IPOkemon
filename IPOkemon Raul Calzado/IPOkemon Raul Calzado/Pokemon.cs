@@ -22,13 +22,14 @@ namespace IPOkemon_Raul_Calzado
         public string tipo { get; set; }
         public string imagen_pokemon { get; set; }
 
-        public Pokemon(string nombre, string descripcion, double altura, double peso, string tipo, string imagen_pokemon) { 
-            this.nombre= nombre;
-            this.descripcion= descripcion;
+        public Pokemon(string nombre, string descripcion, double altura, double peso, string tipo, string imagen_pokemon)
+        {
+            this.nombre = nombre;
+            this.descripcion = descripcion;
             this.altura = altura;
             this.peso = peso;
             this.tipo = tipo;
-            this.imagen_pokemon= imagen_pokemon;
+            this.imagen_pokemon = imagen_pokemon;
         }
     }
 }

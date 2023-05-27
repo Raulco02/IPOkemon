@@ -70,7 +70,7 @@ namespace IPOkemon_Raul_Calzado
         }
         private void irCombate(object sender, RoutedEventArgs e)
         {
-            fmMain.Navigate(typeof(CombatePage));
+            fmMain.Navigate(typeof(JugadoresPage));
         }
         private void irAcerca(object sender, RoutedEventArgs e)
         {

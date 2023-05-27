@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="IPOkemon_Raul_Calzado.InfoPiplupPage"
+    x:Class="IPOkemon_Raul_Calzado.InfoPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:IPOkemon_Raul_Calzado"

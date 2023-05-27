@@ -21,9 +21,13 @@ namespace IPOkemon_Raul_Calzado
     public sealed partial class ucGengar : UserControl
     {
         DispatcherTimer dtTime;
+        String Name = "Gengar";
         public ucGengar()
         {
             this.InitializeComponent();
+            verFondo(true);
+            verBarras(true);
+            verAcciones(true);
         }
 
         private void imgPocionVida_PointerPressed(object sender, PointerRoutedEventArgs e)

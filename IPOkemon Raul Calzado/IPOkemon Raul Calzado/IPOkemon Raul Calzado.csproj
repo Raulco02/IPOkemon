@@ -128,6 +128,9 @@
     <Compile Include="InfoPage.xaml.cs">
       <DependentUpon>InfoPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="JugadoresPage.xaml.cs">
+      <DependentUpon>JugadoresPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="InicioPage.xaml.cs">
       <DependentUpon>InicioPage.xaml</DependentUpon>
     </Compile>
@@ -161,16 +164,12 @@
     <Content Include="Assets\emoji_escudo.png" />
     <Content Include="Assets\emoji_muerte.png" />
     <Content Include="Assets\fondo_bosque.jpg" />
-    <Content Include="Assets\gengar.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Assets\icono_energia.png" />
     <Content Include="Assets\icono_pocion_energia.png" />
     <Content Include="Assets\icono_pocion_vida.png" />
     <Content Include="Assets\icono_vida.png" />
     <Content Include="Assets\logo_pokemon.png" />
     <Content Include="Assets\mountain.jpg" />
-    <Content Include="Assets\piplup.png" />
     <Content Include="Assets\ray.png" />
     <Content Include="Assets\red-potion.png" />
     <Content Include="Assets\yellow-potion.png" />
@@ -197,6 +196,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="InfoPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="JugadoresPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
