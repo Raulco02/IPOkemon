@@ -56,12 +56,6 @@
     <RootType FullName="Windows.UI.Xaml.Controls.ContentControl">
       <RootProperty Name="Content" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Viewbox">
-      <RootProperty Name="Child" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="HorizontalAlignment" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Border">
       <RootProperty Name="Background" />
       <RootProperty Name="BorderBrush" />
@@ -74,14 +68,15 @@
       <RootProperty Name="Text" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="Padding" />
-      <RootProperty Name="TextWrapping" />
-      <RootProperty Name="Width" />
       <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="FontStyle" />
+      <RootProperty Name="TextTrimming" />
+      <RootProperty Name="TextWrapping" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="FontSize" />
       <RootProperty Name="FontWeight" />
+      <RootProperty Name="FontStyle" />
       <RootProperty Name="HorizontalTextAlignment" />
       <RootProperty Name="Margin" />
       <RootProperty Name="FontFamily" />
@@ -92,6 +87,12 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding" />
     <RootType FullName="IPOkemon_Raul_Calzado.CombatePage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Viewbox">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Child" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
     <RootType FullName="IPOkemon_Raul_Calzado.InfoPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />

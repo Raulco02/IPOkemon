@@ -10607,18 +10607,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
+    "C:\\Users\\pedri\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Apuntes\\IPO2\\Lab\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado.csproj",
+      "projectUniqueName": "C:\\Users\\pedri\\OneDrive\\Escritorio\\IPOkemon\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado.csproj",
       "projectName": "IPOkemon Raul Calzado",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\Apuntes\\IPO2\\Lab\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\Apuntes\\IPO2\\Lab\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\obj\\",
+      "projectPath": "C:\\Users\\pedri\\OneDrive\\Escritorio\\IPOkemon\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado.csproj",
+      "packagesPath": "C:\\Users\\pedri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pedri\\OneDrive\\Escritorio\\IPOkemon\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -10626,7 +10626,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pedri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -10635,7 +10635,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\Usuario\\Desktop\\Teatro\\WEB_TEATRO\\TeatroApp\\TeatroApp": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

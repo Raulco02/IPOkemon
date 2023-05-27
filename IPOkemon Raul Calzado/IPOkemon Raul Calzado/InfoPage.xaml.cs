@@ -37,15 +37,16 @@ namespace IPOkemon_Raul_Calzado
             if (e.Parameter != null && e.Parameter is Pokemon)
             {
                 Pokemon pokemon = (Pokemon)e.Parameter;
-                this.tbNombrePokemon.Text = pokemon.nombre;
+                this.tbNombrePokemon.Text = pokemon.nombre + " (" + pokemon.tipo + ")";
                 this.tbDescripcionPokemon.Text = pokemon.descripcion;
                 this.tbAlturaPokemon.Text = pokemon.altura + " m";
                 this.tbPesoPokemon.Text = pokemon.peso + " kg";
                 //Uri foto = new Uri(pokemon.imagen_pokemon, UriKind.Relative);
-                //this.imgInfoPokemon.Source = new BitmapImage(foto);
-                // Revisar esto y meter los tipos
+                //BitmapImage bitmapimage = new BitmapImage();
+                //bitmapimage.UriSource = foto;
+                //this.imgInfoPokemon.Source = bitmapimage;
+                // Revisar esto
             }
         }
-
     }
 }

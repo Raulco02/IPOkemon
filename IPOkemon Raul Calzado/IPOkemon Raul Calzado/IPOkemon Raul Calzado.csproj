@@ -164,12 +164,14 @@
     <Content Include="Assets\emoji_escudo.png" />
     <Content Include="Assets\emoji_muerte.png" />
     <Content Include="Assets\fondo_bosque.jpg" />
+    <Content Include="Assets\gengar.png" />
     <Content Include="Assets\icono_energia.png" />
     <Content Include="Assets\icono_pocion_energia.png" />
     <Content Include="Assets\icono_pocion_vida.png" />
     <Content Include="Assets\icono_vida.png" />
     <Content Include="Assets\logo_pokemon.png" />
     <Content Include="Assets\mountain.jpg" />
+    <Content Include="Assets\piplup.png" />
     <Content Include="Assets\ray.png" />
     <Content Include="Assets\red-potion.png" />
     <Content Include="Assets\yellow-potion.png" />
