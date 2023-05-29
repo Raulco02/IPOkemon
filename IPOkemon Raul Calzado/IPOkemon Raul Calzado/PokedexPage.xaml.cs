@@ -23,6 +23,7 @@ namespace IPOkemon_Raul_Calzado
     public sealed partial class PokedexPage : Page
     {
 
+        List<UserControl> listaPokemon = new List<UserControl>();
         public PokedexPage()
         {
             this.InitializeComponent();
@@ -41,6 +42,11 @@ namespace IPOkemon_Raul_Calzado
             this.ucPiplup5.verBarraEscudo(false);
             this.ucPiplup5.verBarraVida(false);
             this.ucPiplup5.verAcciones(false);
+
+            foreach (var item in pokemonGridView.Items)
+            {
+                listaPokemon.Add((UserControl) item);
+            }
         }
 
         private void ucPiplup1_PointerPressed(object sender, PointerRoutedEventArgs e)
@@ -55,6 +61,35 @@ namespace IPOkemon_Raul_Calzado
             Pokemon gengar = new Pokemon("Gengar", "Para quitarle la vida a su presa, se desliza en su sombra y espera su oportunidad en silencio.", 1.5, 40.5, "Fantasma, Veneno", "Assets/gengar.png");
             Frame aux = (Frame)this.Parent;
             aux.Navigate(typeof(InfoPage), gengar);
+        }
+
+        private void txtBusquedaPokemon_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            string pokemon_buscado = txtBusquedaPokemon.Text.Trim().ToLower();
+            List<UserControl> resultados = new List<UserControl>();
+
+            if (string.IsNullOrEmpty(pokemon_buscado))
+            {
+                pokemonGridView.ItemsSource = listaPokemon;
+            } else
+            {
+                foreach (var control in listaPokemon)
+                {
+                    var tipoControl = control.GetType();
+                    var nombrePropiedad = tipoControl.GetProperty("Nombre");
+
+                    if (nombrePropiedad != null)
+                    {
+                        string nombrePokemon = nombrePropiedad.GetValue(control) as string;
+                        if (nombrePokemon.Contains(pokemon_buscado.ToLower()))
+                        {
+                            resultados.Add(control);
+                        }
+
+                    }
+                }
+                pokemonGridView.ItemsSource = resultados;
+            }
         }
     }
 }

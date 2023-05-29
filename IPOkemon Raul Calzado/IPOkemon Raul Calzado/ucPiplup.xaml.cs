@@ -25,10 +25,11 @@ namespace IPOkemon_Raul_Calzado
         DispatcherTimer dtTime;
         bool cansado;
         bool alasParadas;
-        String Name = "Piplup";
+        public string Nombre { get; set; }
         public ucPiplup()
         {
             this.InitializeComponent();
+            Nombre = "piplup";
             moverAlasPermanent(0.5);
         }
 

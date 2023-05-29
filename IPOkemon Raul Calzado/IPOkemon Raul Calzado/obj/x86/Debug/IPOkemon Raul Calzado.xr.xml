@@ -34,6 +34,9 @@
       <RootProperty Name="Background" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="Height" />
+      <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="Margin" />
+      <RootEvent Name="TextChanged" />
     </RootType>
     <RootType FullName="IPOkemon_Raul_Calzado.AcercaPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
@@ -136,6 +139,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.GridView">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
       <RootProperty Name="ItemContainerStyle" />
       <RootProperty Name="ItemsPanel" />
       <RootProperty Name="Items" />

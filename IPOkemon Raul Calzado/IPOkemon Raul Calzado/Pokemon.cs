@@ -4,16 +4,12 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.UI.Xaml.Controls;
 
 namespace IPOkemon_Raul_Calzado
 {
-    public class Pokemon : INotifyPropertyChanged
+    public class Pokemon
     {
-        public event PropertyChangedEventHandler PropertyChanged;
-        protected void OnPropertyChanged(string propertyName)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
 
         public string nombre { get; set; }
         public string descripcion { get; set; }
