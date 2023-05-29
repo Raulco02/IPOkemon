@@ -42,7 +42,6 @@ namespace IPOkemon_Raul_Calzado
                 this.tbAlturaPokemon.Text = pokemon.altura + " m";
                 this.tbPesoPokemon.Text = pokemon.peso + " kg";
                 this.imgInfoPokemon.Source = new BitmapImage(new Uri("ms-appx:///" + pokemon.imagen_pokemon)); ;
-                // Revisar esto
             }
         }
     }

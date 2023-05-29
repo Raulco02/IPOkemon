@@ -26,6 +26,7 @@ namespace IPOkemon_Raul_Calzado
         public SeleccionPage()
         {
             this.InitializeComponent();
+
         }
         public ObservableCollection<Control> Pokemons { get; set; } = new ObservableCollection<Control>()
         {

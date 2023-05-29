@@ -28,9 +28,19 @@ namespace IPOkemon_Raul_Calzado
             this.InitializeComponent();
             this.ucGengar.verAcciones(false);
             this.ucGengar.verBarras(false);
+            this.ucGengar4.verAcciones(false);
+            this.ucGengar4.verBarras(false);
+            this.ucGengar6.verAcciones(false);
+            this.ucGengar6.verBarras(false);
             this.ucPiplup.verBarraEscudo(false);
             this.ucPiplup.verBarraVida(false);
             this.ucPiplup.verAcciones(false);
+            this.ucPiplup3.verBarraEscudo(false);
+            this.ucPiplup3.verBarraVida(false);
+            this.ucPiplup3.verAcciones(false);
+            this.ucPiplup5.verBarraEscudo(false);
+            this.ucPiplup5.verBarraVida(false);
+            this.ucPiplup5.verAcciones(false);
         }
 
         private void ucPiplup1_PointerPressed(object sender, PointerRoutedEventArgs e)
