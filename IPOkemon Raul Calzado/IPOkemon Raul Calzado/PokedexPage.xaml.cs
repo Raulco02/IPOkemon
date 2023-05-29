@@ -35,14 +35,14 @@ namespace IPOkemon_Raul_Calzado
 
         private void ucPiplup1_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
-            Pokemon piplup = new Pokemon("Piplup", "No le gusta que lo cuiden. Como no aprecia el apoyo de su Entrenador, le cuesta coger confianza con él.", 0.4, 5.2, "Agua", "/Assets/piplup.png");
+            Pokemon piplup = new Pokemon("Piplup", "No le gusta que lo cuiden. Como no aprecia el apoyo de su Entrenador, le cuesta coger confianza con él.", 0.4, 5.2, "Agua", "Assets/piplup.png");
             Frame aux = (Frame)this.Parent;
             aux.Navigate(typeof(InfoPage), piplup);
         }
 
         private void ucGengar_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
-            Pokemon gengar = new Pokemon("Gengar", "Para quitarle la vida a su presa, se desliza en su sombra y espera su oportunidad en silencio.", 1.5, 40.5, "Fantasma, Veneno", "/Assets/gengar.png");
+            Pokemon gengar = new Pokemon("Gengar", "Para quitarle la vida a su presa, se desliza en su sombra y espera su oportunidad en silencio.", 1.5, 40.5, "Fantasma, Veneno", "Assets/gengar.png");
             Frame aux = (Frame)this.Parent;
             aux.Navigate(typeof(InfoPage), gengar);
         }
