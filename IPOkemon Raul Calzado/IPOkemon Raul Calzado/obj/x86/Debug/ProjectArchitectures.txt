@@ -1,1 +1,1 @@
-C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\IPOkemon Raul Calzado.csproj;x86
+C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Pedro\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\IPOkemon Raul Calzado.csproj;x86

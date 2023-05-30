@@ -122,12 +122,14 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Ataque.cs" />
     <Compile Include="CombatePage.xaml.cs">
       <DependentUpon>CombatePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="InfoPage.xaml.cs">
       <DependentUpon>InfoPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="InPokemon.cs" />
     <Compile Include="JugadoresPage.xaml.cs">
       <DependentUpon>JugadoresPage.xaml</DependentUpon>
     </Compile>

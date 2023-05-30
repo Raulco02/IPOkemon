@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Xml.Linq;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -20,16 +21,22 @@ using Windows.UI.Xaml.Navigation;
 
 namespace IPOkemon_Raul_Calzado
 {
-    public sealed partial class ucPiplup : UserControl
+    public sealed partial class ucPiplup : UserControl, InPokemon
     {
         DispatcherTimer dtTime;
         bool cansado;
         bool alasParadas;
-        public string Nombre { get; set; }
+        public string name;
+        public int descansoCounter;
+        public event EventHandler<Ataque> ataqueRealizado;
+        public event EventHandler<Ataque> ataqueFallado;
+        public event EventHandler<string> debilitado;
+        public event EventHandler<object> muerteSubita;
+
         public ucPiplup()
         {
             this.InitializeComponent();
-            Nombre = "piplup";
+            name = "Piplup";
             moverAlasPermanent(0.5);
         }
 
@@ -39,10 +46,16 @@ namespace IPOkemon_Raul_Calzado
             set { this.pbHealth.Value = value; }
         }
 
-        public int Escudo
+        public double Escudo
         {
-            get { return Escudo; }
-            set { Escudo = value; }
+            get { return this.pbShield.Value; }
+            set { this.pbShield.Value = value; }
+        }
+
+        public string Nombre
+        {
+            get { return name; }
+            set { name = value; }
         }
 
         public void verFondo(bool verfondo)
@@ -58,12 +71,14 @@ namespace IPOkemon_Raul_Calzado
 
         public void verBarraVida(bool verbarraVida)
         {
-            if(!verbarraVida) { 
-                this.pbHealth.Visibility = Visibility.Collapsed; 
+            if (!verbarraVida)
+            {
+                this.pbHealth.Visibility = Visibility.Collapsed;
                 this.imgHeart.Visibility = Visibility.Collapsed;
                 this.imRPotion.Visibility = Visibility.Collapsed;
             }
-            else { 
+            else
+            {
                 this.pbHealth.Visibility = Visibility.Visible;
                 this.imgHeart.Visibility = Visibility.Visible;
                 this.imRPotion.Visibility = Visibility.Visible;
@@ -72,12 +87,14 @@ namespace IPOkemon_Raul_Calzado
 
         public void verBarraEscudo(bool verbarraEscudo)
         {
-            if (!verbarraEscudo) { 
-                this.pbShield.Visibility = Visibility.Collapsed; 
+            if (!verbarraEscudo)
+            {
+                this.pbShield.Visibility = Visibility.Collapsed;
                 this.imgShield.Visibility = Visibility.Collapsed;
                 this.imYPotion.Visibility = Visibility.Collapsed;
             }
-            else { 
+            else
+            {
                 this.pbShield.Visibility = Visibility.Visible;
                 this.imgShield.Visibility = Visibility.Visible;
                 this.imYPotion.Visibility = Visibility.Visible;
@@ -857,7 +874,7 @@ namespace IPOkemon_Raul_Calzado
         {
             ataqueAla();
         }
-        private void ataqueAla()
+        public void ataqueAla()
         {
             int dano = 10;
             if (pbShield.Value - dano >= 0)
@@ -867,6 +884,7 @@ namespace IPOkemon_Raul_Calzado
                 sb.Begin();
                 pbShield.Value -= dano;
                 desactivarBotones();
+                ataqueRealizado.Invoke(this, new Ataque("Ataque ala", dano));
                 if (pbShield.Value >= 30)
                 {
                     accionCansar(false, false);
@@ -876,6 +894,7 @@ namespace IPOkemon_Raul_Calzado
             {
                 accionCansar(false, true);
                 entristecer();
+                ataqueFallado.Invoke(this, new Ataque("Ataque ala", 0));
             }
         }
         private void ataques_Completed(object sender, object e)
@@ -923,7 +942,7 @@ namespace IPOkemon_Raul_Calzado
         {
             burbuja();
         }
-        private void burbuja()
+        public void burbuja()
         {
             int dano = 25;
             if (pbShield.Value - dano >= 0)
@@ -934,11 +953,13 @@ namespace IPOkemon_Raul_Calzado
                 sb.Begin();
                 pbShield.Value -= dano;
                 desactivarBotones();
+                ataqueRealizado.Invoke(this, new Ataque("Burbuja", dano));
             }
             else
             {
                 accionCansar(false, true);
                 entristecer();
+                ataqueFallado.Invoke(this, new Ataque("Burbuja", 0));
             }
         }
 
@@ -947,19 +968,29 @@ namespace IPOkemon_Raul_Calzado
             descansoclick();
         }
 
-        private void descansoclick()
+        public void descansoclick()
         {
-            descanso();
-            pbHealth.Value = 100;
-            pbShield.Value = 100;
-            desactivarBotones();
+            descansoCounter++;
+            if (descansoCounter < 2)
+            {
+                descanso();
+                pbHealth.Value = 100;
+                pbShield.Value = 100;
+                ataqueRealizado.Invoke(this, new Ataque("Descanso", 0));
+                desactivarBotones();
+            }
+            else
+            {
+                descansoCounter = 0;
+                ataqueFallado.Invoke(this, new Ataque("Descanso", 0));
+            }
         }
 
         private void btnRoca_Click(object sender, RoutedEventArgs e)
         {
             lanzarrocas();
         }
-        private void lanzarrocas()
+        public void lanzarrocas()
         {
             int dano = 40;
             if (pbShield.Value - dano >= 0)
@@ -970,11 +1001,13 @@ namespace IPOkemon_Raul_Calzado
                 pbShield.Value -= dano;
                 mostrarRoca();
                 desactivarBotones();
+                ataqueRealizado.Invoke(this, new Ataque("Lanzarrocas", dano));
             }
             else
             {
                 accionCansar(false, true);
                 entristecer();
+                ataqueFallado.Invoke(this, new Ataque("Lanzarrocas", 0));
             }
         }
         private void desactivarBotones()
@@ -998,6 +1031,17 @@ namespace IPOkemon_Raul_Calzado
                 }
             }
         }
+
+        private void pbHealth_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
+        {
+            if (pbHealth.Value == 0)
+            {
+                Storyboard sb = (Storyboard)this.Resources["AnimacionMuerte"];
+                sb.Begin();
+                verAcciones(false);
+                debilitado.Invoke(this, "Piplup");
+            }
+        }
     }
 }
-        
+

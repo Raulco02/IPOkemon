@@ -10,6 +10,17 @@
     d:DesignWidth="400">
 
     <UserControl.Resources>
+        <Storyboard x:Key="AnimacionMuerte">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="canvas" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00.2000000" Value="Collapsed"/>
+                <DiscreteObjectKeyFrame KeyTime="00:00:00.3000000" Value="Visible"/>
+                <DiscreteObjectKeyFrame KeyTime="00:00:00.4000000" Value="Collapsed"/>
+                <DiscreteObjectKeyFrame KeyTime="00:00:00.5000000" Value="Visible"/>
+                <DiscreteObjectKeyFrame KeyTime="00:00:00.6000000" Value="Collapsed"/>
+                <DiscreteObjectKeyFrame KeyTime="00:00:00.7000000" Value="Visible"/>
+                <DiscreteObjectKeyFrame KeyTime="00:00:00.8000000" Value="Collapsed"/>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
         <Storyboard x:Name="MoverAlas" Completed="ataques_Completed">
 
             <DoubleAnimationUsingKeyFrames Storyboard.TargetName="ptAlaDer" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
@@ -270,7 +281,7 @@
             </Canvas>
         </Viewbox>
         <Viewbox Grid.Column="1" Grid.Row="0">
-            <ProgressBar x:Name="pbHealth" Value="75" VerticalAlignment="Stretch" Background="#33FF0B0B" Foreground="#FFEC1010" Height="4" Width="65" />
+            <ProgressBar x:Name="pbHealth" Value="75" VerticalAlignment="Stretch" Background="#33FF0B0B" Foreground="#FFEC1010" Height="4" Width="65" ValueChanged="pbHealth_ValueChanged" />
         </Viewbox>
         <Viewbox Grid.Column="1" Grid.Row="1">
             <ProgressBar x:Name="pbShield" Value="50" VerticalAlignment="Stretch" Background="#33FFEB0B" Foreground="#FFECDA10" Height="4" Width="65" ValueChanged="pbShield_ValueChanged" />
