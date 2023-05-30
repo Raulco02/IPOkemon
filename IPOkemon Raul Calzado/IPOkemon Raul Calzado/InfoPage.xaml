@@ -42,7 +42,7 @@
             <TextBlock x:Name="tbPesoPokemon" TextWrapping="Wrap" Text="TextBlock" Width="127"/>
         </Viewbox>
         <Viewbox Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Margin="0,0,7,0">
-            <TextBlock x:Name="tbNombrePokemon" HorizontalAlignment="Left" Grid.Row="2" TextTrimming="CharacterEllipsis" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Grid.ColumnSpan="3" Height="63" Width="871" FontSize="36" FontWeight="Bold"/>
+            <TextBlock x:Name="tbNombrePokemon" HorizontalAlignment="Left" Grid.Row="2" TextTrimming="CharacterEllipsis" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Grid.ColumnSpan="3" Height="63" Width="612" FontSize="36" FontWeight="Bold"/>
         </Viewbox>
 
 
