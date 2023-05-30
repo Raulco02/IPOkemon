@@ -22,13 +22,13 @@
                 <ColumnDefinition Width="104*"/>
             </Grid.ColumnDefinitions>
             <Viewbox Grid.Column="1" Grid.ColumnSpan="2" Margin="0,0,104,21">
-                <TextBlock TextWrapping="Wrap" Text="¡Bienvenid@ a IPOkémon!" FontWeight="Bold"/>
+                <TextBlock x:Name="tbBienvenido" x:Uid="tbBienvenido" TextWrapping="Wrap" Text="¡Bienvenid@ a IPOkémon!" FontWeight="Bold"/>
             </Viewbox>
             <Viewbox Grid.Column="1" Grid.Row="2">
                 <Image x:Name="imgLogoPokemon" Height="100" Width="465" Source="Assets/logo_pokemon.png"/>
             </Viewbox>
             <Viewbox Grid.Column="1" Grid.Row="1">
-                <TextBox x:Name="tbTextoInicio" TextWrapping="Wrap" Text="¡Bienvenido a IPOkémon! Aquí encontrarás información detallada sobre cada uno de los Pokémon que habitan en este vasto mundo. Explora sus habilidades, características y tipos para crear el equipo perfecto. Pero recuerda, el verdadero desafío está en el combate. Domina las estrategias y tácticas para enfrentarte a otros entrenadores. Elige sabiamente tus movimientos, aprovecha las ventajas de tipo y desata poderosos ataques especiales. Cada encuentro es una oportunidad para demostrar tu habilidad y alcanzar la victoria. ¡Prepárate para desencadenar todo el potencial de tus Pokémon y convertirte en un maestro de IPOkémon!" Width="516" IsEnabled="False" IsReadOnly="True" Background="{x:Null}" Foreground="White" FontSize="12" Height="144"/>
+                <TextBox x:Name="tbTextoInicio" x:Uid="tbTextoInicio" TextWrapping="Wrap" Text="¡Bienvenido a IPOkémon! Aquí encontrarás información detallada sobre cada uno de los Pokémon que habitan en este vasto mundo. Explora sus habilidades, características y tipos para crear el equipo perfecto. Pero recuerda, el verdadero desafío está en el combate. Domina las estrategias y tácticas para enfrentarte a otros entrenadores. Elige sabiamente tus movimientos, aprovecha las ventajas de tipo y desata poderosos ataques especiales. Cada encuentro es una oportunidad para demostrar tu habilidad y alcanzar la victoria. ¡Prepárate para desencadenar todo el potencial de tus Pokémon y convertirte en un maestro de IPOkémon!" Width="516" IsEnabled="False" IsReadOnly="True" Background="{x:Null}" Foreground="White" FontSize="12" Height="144"/>
             </Viewbox>
 
         </Grid>

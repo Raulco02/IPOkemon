@@ -5,8 +5,10 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading;
 using System.Threading.Tasks;
+using Windows.ApplicationModel.Resources;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Globalization;
 using Windows.UI.Core;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -28,6 +30,7 @@ namespace IPOkemon_Raul_Calzado
         public MainPage()
         {
             this.InitializeComponent();
+
             fmMain.Navigate(typeof(InicioPage));
             Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().SetPreferredMinSize(new Size(320, 320));
             Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().VisibleBoundsChanged += MainPage_VisibleBoundsChanged;
@@ -79,8 +82,8 @@ namespace IPOkemon_Raul_Calzado
         private void irInicio(object sender, RoutedEventArgs e)
         {
             fmMain.Navigate(typeof(InicioPage));
-        }
 
+        }
         private void btnCompactar_Click(object sender, RoutedEventArgs e)
         {
             sView.IsPaneOpen = !sView.IsPaneOpen;

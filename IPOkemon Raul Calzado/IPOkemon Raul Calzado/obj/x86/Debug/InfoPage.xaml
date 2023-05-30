@@ -30,10 +30,10 @@
             <TextBlock x:ConnectionId='5' x:Name="tbDescripcionPokemon" TextWrapping="Wrap" Text="" Width="260" FontSize="10" Height="34" FontStyle="Italic"/>
         </Viewbox>
         <Viewbox Grid.Column="1" Grid.Row="3" Margin="0,0,12,3">
-            <TextBlock TextWrapping="Wrap" Text="Altura" Width="95" HorizontalAlignment="Left"/>
+            <TextBlock x:Uid="AlturaPokemon" TextWrapping="Wrap" Text="Altura" Width="95" HorizontalAlignment="Left"/>
         </Viewbox>
         <Viewbox Grid.Column="2" Grid.Row="3" Margin="0,0,0,3">
-            <TextBlock TextWrapping="Wrap" Text="Peso" Width="92"/>
+            <TextBlock x:Uid="PesoPokemon" TextWrapping="Wrap" Text="Peso" Width="92"/>
         </Viewbox>
         <Viewbox Grid.Column="1" Grid.Row="4">
             <TextBlock x:ConnectionId='4' x:Name="tbAlturaPokemon" TextWrapping="Wrap" Text="TextBlock" Width="134"/>
