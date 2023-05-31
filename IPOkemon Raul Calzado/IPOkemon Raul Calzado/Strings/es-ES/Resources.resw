@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="1jugador" xml:space="preserve">
+    <value>1 Jugador</value>
+  </data>
+  <data name="2jugadores" xml:space="preserve">
+    <value>2 Jugadores</value>
+  </data>
   <data name="aceptar" xml:space="preserve">
     <value>Aceptar</value>
   </data>
@@ -185,6 +191,9 @@
   </data>
   <data name="contenidoCambioIdioma" xml:space="preserve">
     <value>Selecciona tu idioma:</value>
+  </data>
+  <data name="contenidoJugadores" xml:space="preserve">
+    <value>Elige un modo de juego</value>
   </data>
   <data name="descanso" xml:space="preserve">
     <value>Descanso</value>
@@ -266,6 +275,9 @@
   </data>
   <data name="tituloCambioIdioma" xml:space="preserve">
     <value>Selecciona idioma</value>
+  </data>
+  <data name="tituloJugadores" xml:space="preserve">
+    <value>Jugadores</value>
   </data>
   <data name="y" xml:space="preserve">
     <value>y</value>

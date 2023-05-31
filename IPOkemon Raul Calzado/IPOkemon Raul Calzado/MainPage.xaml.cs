@@ -197,7 +197,8 @@ namespace IPOkemon_Raul_Calzado
         }
         private void irCombate(object sender, RoutedEventArgs e)
         {
-            fmMain.Navigate(typeof(JugadoresPage), this);
+            //fmMain.Navigate(typeof(JugadoresPage), this);
+            jugadores();
         }
         private void irCuidar(object sender, RoutedEventArgs e)
         {
@@ -211,6 +212,49 @@ namespace IPOkemon_Raul_Calzado
         {
             fmMain.Navigate(typeof(InicioPage));
 
+        }
+
+        private async void jugadores()
+        {
+            string titulo = resourceLoader.GetString("tituloJugadores");
+            string contenido = resourceLoader.GetString("contenidoJugadores");
+            string cancelar = resourceLoader.GetString("cancelar");
+            ContentDialog dialog = new ContentDialog
+            {
+                Title = titulo,
+                Content = contenido,
+                CloseButtonText = cancelar
+            };
+
+            
+            dialog.PrimaryButtonText = resourceLoader.GetString("1jugador");
+            dialog.PrimaryButtonClick += (dialogSender, args) =>
+            {
+                jugador(); 
+            };
+
+            dialog.SecondaryButtonText = resourceLoader.GetString("2jugadores");
+            dialog.SecondaryButtonClick += (dialogSender, args) =>
+            {
+                multijugador(); 
+            };
+
+            await dialog.ShowAsync();
+        }
+        private void jugador()
+        {
+            bool multi;
+            timer.Dispose();
+            multi = false;
+            fmMain.Navigate(typeof(SeleccionPage), multi);
+        }
+
+        private void multijugador()
+        {
+            bool multi;
+            timer.Dispose();
+            multi = true;
+            fmMain.Navigate(typeof(SeleccionPage), multi);
         }
         private async void CambiarIdioma_Click(object sender, RoutedEventArgs e)
         {
