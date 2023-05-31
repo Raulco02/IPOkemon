@@ -33,6 +33,7 @@
                         <RowDefinition Height="Auto"></RowDefinition>
                         <RowDefinition Height="Auto"></RowDefinition>
                         <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="50"></ColumnDefinition>
@@ -41,13 +42,15 @@
                     <SymbolIcon Grid.Row="0" Margin="4" Symbol="Home" PointerPressed="irInicio"></SymbolIcon>
                     <SymbolIcon Grid.Row="1" Margin="4" Symbol="Pictures" PointerPressed="irPokedex"></SymbolIcon>
                     <SymbolIcon Grid.Row="2" Margin="4" Symbol="People" PointerPressed="irCombate"></SymbolIcon>
-                    <SymbolIcon Grid.Row="3" Margin="4" Symbol="Help" PointerPressed="irAcerca"></SymbolIcon>
-                    <SymbolIcon Grid.Row="4" Margin="4" Symbol="Flag" PointerPressed="irAcerca"></SymbolIcon>
+                    <SymbolIcon Grid.Row="3" Margin="4" Symbol="Street" PointerPressed="irCuidar"></SymbolIcon>
+                    <SymbolIcon Grid.Row="4" Margin="4" Symbol="Help" PointerPressed="irAcerca"></SymbolIcon>
+                    <SymbolIcon Grid.Row="5" Margin="4" Symbol="Flag" PointerPressed="CambiarIdioma_Click"></SymbolIcon>
                     <Button x:Name="btnInicio" x:Uid="BotonInicio" Grid.Column="1" Grid.Row="0" Content="Inicio" HorizontalAlignment="Stretch" Margin="8,8,8,0" FontSize="20" Click="irInicio"/>
                     <Button x:Name="btnPokedex" x:Uid="BotonPokedex" Grid.Column="1" Grid.Row="1" Content="Pokédex" HorizontalAlignment="Stretch" Margin="8,8,8,0" FontSize="20" Click="irPokedex"/>
                     <Button x:Name="btnCombate" x:Uid="BotonCombate" Grid.Column="1" Grid.Row="2" Content="Combate" HorizontalAlignment="Stretch" Margin="8,8,8,0" FontSize="20" Click="irCombate"/>
-                    <Button x:Name="btnAcerca" x:Uid="BotonAcerca" Grid.Column="1" Grid.Row="3" Content="Acerca de" HorizontalAlignment="Stretch" Margin="8,8,8,0" FontSize="20" Click="irAcerca"/>
-                    <Button x:Name="btnIdioma" x:Uid="BotonIdioma" Grid.Column="1" Grid.Row="4" Content="Cambiar idioma" HorizontalAlignment="Stretch" Margin="8,8,8,0" FontSize="20" Click="CambiarIdioma_Click"/>
+                    <Button x:Name="btnPractica" x:Uid="BotonPractica" Grid.Column="1" Grid.Row="3" Content="Practica" HorizontalAlignment="Stretch" Margin="8,8,8,0" FontSize="20" Click="irCuidar"/>
+                    <Button x:Name="btnAcerca" x:Uid="BotonAcerca" Grid.Column="1" Grid.Row="4" Content="Acerca de" HorizontalAlignment="Stretch" Margin="8,8,8,0" FontSize="20" Click="irAcerca"/>
+                    <Button x:Name="btnIdioma" x:Uid="BotonIdioma" Grid.Column="1" Grid.Row="5" Content="Cambiar idioma" HorizontalAlignment="Stretch" Margin="8,8,8,0" FontSize="20" Click="CambiarIdioma_Click"/>
                 </Grid>
             </SplitView.Pane>
             <Frame x:Name="fmMain" Grid.Column="1" Grid.Row="1" Navigated="fmMain_Navigated"/>

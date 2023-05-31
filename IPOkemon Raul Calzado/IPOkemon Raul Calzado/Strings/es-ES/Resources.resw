@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="aceptar" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
   <data name="AlturaPokemon.Text" xml:space="preserve">
     <value>Altura</value>
   </data>
@@ -140,6 +143,9 @@
   </data>
   <data name="BotonPokedex.Content" xml:space="preserve">
     <value>Pokédex</value>
+  </data>
+  <data name="BotonPractica.Content" xml:space="preserve">
+    <value>Practica</value>
   </data>
   <data name="BotonUnJugador.Content" xml:space="preserve">
     <value>1 Jugador</value>
@@ -171,8 +177,14 @@
   <data name="BusquedaPokemon.PlaceholderText" xml:space="preserve">
     <value>Buscar</value>
   </data>
+  <data name="cancelar" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
   <data name="comienzoCombate" xml:space="preserve">
     <value>¡Da comienzo el combate! Se enfrentarán</value>
+  </data>
+  <data name="contenidoCambioIdioma" xml:space="preserve">
+    <value>Selecciona tu idioma:</value>
   </data>
   <data name="descanso" xml:space="preserve">
     <value>Descanso</value>
@@ -210,6 +222,30 @@
   <data name="PesoPokemon.Text" xml:space="preserve">
     <value>Peso</value>
   </data>
+  <data name="precaucionAtaqueAla" xml:space="preserve">
+    <value>está demasiado cansado para realizar ataque ala. Requiere al menos 10 puntos de energía.</value>
+  </data>
+  <data name="precaucionBurbuja" xml:space="preserve">
+    <value>está demasiado cansado para realizar burbuja. Requiere al menos 25 puntos de energía.</value>
+  </data>
+  <data name="precaucionDescanso" xml:space="preserve">
+    <value>no está cansado. Vuelve a probar.</value>
+  </data>
+  <data name="precaucionLanzarrocas" xml:space="preserve">
+    <value>está demasiado cansado para realizar lanzarrocas. Requiere al menos 40 puntos de energía. Sé cuidadoso, realizar este movimiento causa daño a tu Pokemon</value>
+  </data>
+  <data name="precaucionMuerte" xml:space="preserve">
+    <value>sólo puede realizar muerte súbita cuándo tiene 10 puntos de vida o menos</value>
+  </data>
+  <data name="precaucionProteccion1" xml:space="preserve">
+    <value>Protección es un movimiento muy exigente, por lo que es posible que a veces</value>
+  </data>
+  <data name="precaucionProteccion2" xml:space="preserve">
+    <value>no pueda realizarlo. Requiere al menos 20 puntos de energía.</value>
+  </data>
+  <data name="precaucionPsiquico" xml:space="preserve">
+    <value>sólo puede realizar psíquico cuándo tiene 20 puntos de energía o más.</value>
+  </data>
   <data name="proteccion" xml:space="preserve">
     <value>Protección</value>
   </data>
@@ -227,6 +263,9 @@
   </data>
   <data name="tipoPiplup" xml:space="preserve">
     <value>Agua</value>
+  </data>
+  <data name="tituloCambioIdioma" xml:space="preserve">
+    <value>Selecciona idioma</value>
   </data>
   <data name="y" xml:space="preserve">
     <value>y</value>

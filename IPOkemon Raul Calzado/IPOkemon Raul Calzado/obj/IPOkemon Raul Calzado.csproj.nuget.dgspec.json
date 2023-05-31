@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pedri\\OneDrive\\Escritorio\\IPOkemon\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\Apuntes\\IPO2\\Lab\\sincro2\\IPOkemon\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pedri\\OneDrive\\Escritorio\\IPOkemon\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Apuntes\\IPO2\\Lab\\sincro2\\IPOkemon\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pedri\\OneDrive\\Escritorio\\IPOkemon\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Apuntes\\IPO2\\Lab\\sincro2\\IPOkemon\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado.csproj",
         "projectName": "IPOkemon Raul Calzado",
-        "projectPath": "C:\\Users\\pedri\\OneDrive\\Escritorio\\IPOkemon\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado.csproj",
-        "packagesPath": "C:\\Users\\pedri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pedri\\OneDrive\\Escritorio\\IPOkemon\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Apuntes\\IPO2\\Lab\\sincro2\\IPOkemon\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Apuntes\\IPO2\\Lab\\sincro2\\IPOkemon\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\pedri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -28,6 +28,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Usuario\\Desktop\\Teatro\\WEB_TEATRO\\TeatroApp\\TeatroApp": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

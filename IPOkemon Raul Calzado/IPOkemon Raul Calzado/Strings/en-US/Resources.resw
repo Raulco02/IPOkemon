@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="aceptar" xml:space="preserve">
+    <value>Accept</value>
+  </data>
   <data name="AlturaPokemon.Text" xml:space="preserve">
     <value>Height</value>
   </data>
@@ -140,6 +143,9 @@
   </data>
   <data name="BotonPokedex.Content" xml:space="preserve">
     <value>Pokédex</value>
+  </data>
+  <data name="BotonPractica.Content" xml:space="preserve">
+    <value>Practice</value>
   </data>
   <data name="BotonUnJugador.Content" xml:space="preserve">
     <value>1 Player</value>
@@ -171,8 +177,14 @@
   <data name="BusquedaPokemon.PlaceholderText" xml:space="preserve">
     <value>Search</value>
   </data>
+  <data name="cancelar" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
   <data name="comienzoCombate" xml:space="preserve">
     <value>The battle is about to start!</value>
+  </data>
+  <data name="contenidoCambioIdioma" xml:space="preserve">
+    <value>Select the language of your choice:</value>
   </data>
   <data name="descanso" xml:space="preserve">
     <value>Rest</value>
@@ -210,6 +222,30 @@
   <data name="PesoPokemon.Text" xml:space="preserve">
     <value>Weight</value>
   </data>
+  <data name="precaucionAtaqueAla" xml:space="preserve">
+    <value>is too tired to perform wing attack. Requires at least 10 energy points.</value>
+  </data>
+  <data name="precaucionBurbuja" xml:space="preserve">
+    <value>is too tired to perform bubble. Requires at least 25 energy points.</value>
+  </data>
+  <data name="precaucionDescanso" xml:space="preserve">
+    <value>is not tired. Try again.</value>
+  </data>
+  <data name="precaucionLanzarrocas" xml:space="preserve">
+    <value>is too tired to perform a rock throw. It requires at least 40 energy points. Be careful, performing this move causes damage to your Pokemon.</value>
+  </data>
+  <data name="precaucionMuerte" xml:space="preserve">
+    <value>can only perform sudden death when you have 10 life points or less.</value>
+  </data>
+  <data name="precaucionProteccion1" xml:space="preserve">
+    <value>Protect is a very demanding movement, so it is possible that at times</value>
+  </data>
+  <data name="precaucionProteccion2" xml:space="preserve">
+    <value>cannot perform it. Requires at least 20 energy points.</value>
+  </data>
+  <data name="precaucionPsiquico" xml:space="preserve">
+    <value>can only perform psychic when he has 20 energy points or more.</value>
+  </data>
   <data name="proteccion" xml:space="preserve">
     <value>Protect</value>
   </data>
@@ -229,6 +265,9 @@
   </data>
   <data name="tipoPiplup" xml:space="preserve">
     <value>Water</value>
+  </data>
+  <data name="tituloCambioIdioma" xml:space="preserve">
+    <value>Select a language</value>
   </data>
   <data name="y" xml:space="preserve">
     <value>and</value>

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-N8LKULU</Machine>
-    <WindowsUser>pedri</WindowsUser>
+    <Machine>LAPTOP-A3UTIJ9R</Machine>
+    <WindowsUser>Raúl</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>3f825ac2-da73-44ae-880d-580a61e8ac56</PackageIdentityName>
     <PackageIdentityPublisher>CN=Raúl</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>1DA10FBDBF51214AB49F76688EB7B4D993B730709C81C6DD9EF7B5BC5063D736</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>508C07EC2D8476030885FB4F6656442706B90AED6A6B3B345B9A1961FA35A935</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>3f825ac2-da73-44ae-880d-580a61e8ac56_1.0.0.0_x86__vxgt0h13fgdt8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>3f825ac2-da73-44ae-880d-580a61e8ac56_vxgt0h13fgdt8!App</RegisteredUserModeAppID>
     <RegisteredPackageID>3f825ac2-da73-44ae-880d-580a61e8ac56</RegisteredPackageID>
@@ -27,26 +27,26 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T16:07:40.794</Modified>
+      <Modified>2023-05-31T16:24:20.907</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\IPOkemon Raul Calzado.exe">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\IPOkemon Raul Calzado.exe">
       <PackagePath>entrypoint\IPOkemon Raul Calzado.exe</PackagePath>
-      <Modified>2023-05-31T16:07:39.916</Modified>
+      <Modified>2023-05-31T16:24:19.578</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\.nuget\packages\microsoft.web.webview2\1.0.1264.42\build\..\runtimes\win-x86\native_uap\Microsoft.Web.WebView2.Core.dll">
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.web.webview2\1.0.1264.42\build\..\runtimes\win-x86\native_uap\Microsoft.Web.WebView2.Core.dll">
       <PackagePath>Microsoft.Web.WebView2.Core.dll</PackagePath>
       <Modified>2022-06-28T22:02:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\.nuget\packages\microsoft.toolkit.uwp.notifications\7.1.3\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.Notifications.dll">
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.toolkit.uwp.notifications\7.1.3\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.Notifications.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.Notifications.dll</PackagePath>
       <Modified>2022-11-01T17:32:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\.nuget\packages\microsoft.web.webview2\1.0.1264.42\runtimes\win-x86\native\WebView2Loader.dll">
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.web.webview2\1.0.1264.42\runtimes\win-x86\native\WebView2Loader.dll">
       <PackagePath>WebView2Loader.dll</PackagePath>
       <Modified>2022-06-28T22:03:22.000</Modified>
     </AppxPackagedFile>
@@ -56,454 +56,458 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2020-12-02T02:52:00.000</Modified>
+      <Modified>2020-12-02T03:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\.nuget\packages\microsoft.web.webview2\1.0.1264.42\lib\Microsoft.Web.WebView2.Core.winmd">
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.web.webview2\1.0.1264.42\lib\Microsoft.Web.WebView2.Core.winmd">
       <PackagePath>Microsoft.Web.WebView2.Core.winmd</PackagePath>
       <Modified>2022-06-28T22:02:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\corazon.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\corazon.png">
       <PackagePath>Assets\corazon.png</PackagePath>
-      <Modified>2023-05-31T14:45:48.045</Modified>
+      <Modified>2023-05-31T16:13:42.001</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\emoji_atacar.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\emoji_atacar.png">
       <PackagePath>Assets\emoji_atacar.png</PackagePath>
-      <Modified>2023-05-31T14:45:48.046</Modified>
+      <Modified>2023-05-31T16:13:42.001</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\emoji_descansar.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\emoji_descansar.png">
       <PackagePath>Assets\emoji_descansar.png</PackagePath>
-      <Modified>2023-05-31T14:45:48.046</Modified>
+      <Modified>2023-05-31T16:13:42.002</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\emoji_escudo.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\emoji_escudo.png">
       <PackagePath>Assets\emoji_escudo.png</PackagePath>
-      <Modified>2023-05-31T14:45:48.047</Modified>
+      <Modified>2023-05-31T16:13:42.003</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\emoji_muerte.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\emoji_muerte.png">
       <PackagePath>Assets\emoji_muerte.png</PackagePath>
-      <Modified>2023-05-31T14:45:48.047</Modified>
+      <Modified>2023-05-31T16:13:42.004</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\gengar.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\gengar.png">
       <PackagePath>Assets\gengar.png</PackagePath>
-      <Modified>2023-05-31T14:45:48.051</Modified>
+      <Modified>2023-05-31T16:13:42.008</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\icono_energia.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\icono_energia.png">
       <PackagePath>Assets\icono_energia.png</PackagePath>
-      <Modified>2023-05-31T14:45:48.052</Modified>
+      <Modified>2023-05-31T16:13:42.009</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\icono_pocion_energia.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\icono_pocion_energia.png">
       <PackagePath>Assets\icono_pocion_energia.png</PackagePath>
-      <Modified>2023-05-31T14:45:48.052</Modified>
+      <Modified>2023-05-31T16:13:42.010</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\icono_pocion_vida.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\icono_pocion_vida.png">
       <PackagePath>Assets\icono_pocion_vida.png</PackagePath>
-      <Modified>2023-05-31T14:45:48.053</Modified>
+      <Modified>2023-05-31T16:13:42.011</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\icono_vida.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\icono_vida.png">
       <PackagePath>Assets\icono_vida.png</PackagePath>
-      <Modified>2023-05-31T14:45:48.055</Modified>
+      <Modified>2023-05-31T16:13:42.012</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.022</Modified>
+      <Modified>2023-05-31T16:13:41.971</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\LargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.022</Modified>
+      <Modified>2023-05-31T16:13:41.972</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\LargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.022</Modified>
+      <Modified>2023-05-31T16:13:41.973</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.024</Modified>
+      <Modified>2023-05-31T16:13:41.974</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.025</Modified>
+      <Modified>2023-05-31T16:13:41.975</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\logo_pokemon.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\logo_pokemon.png">
       <PackagePath>Assets\logo_pokemon.png</PackagePath>
-      <Modified>2023-05-31T14:45:48.056</Modified>
+      <Modified>2023-05-31T16:13:42.014</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\piplup.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\piplup.png">
       <PackagePath>Assets\piplup.png</PackagePath>
-      <Modified>2023-05-31T14:45:48.059</Modified>
+      <Modified>2023-05-31T16:13:42.018</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Poké_Ball_icon.svg.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Poké_Ball_icon.svg.png">
       <PackagePath>Assets\Poké_Ball_icon.svg.png</PackagePath>
-      <Modified>2023-05-31T14:45:48.026</Modified>
+      <Modified>2023-05-31T16:13:41.977</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\ray.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\ray.png">
       <PackagePath>Assets\ray.png</PackagePath>
-      <Modified>2023-05-31T14:45:48.059</Modified>
+      <Modified>2023-05-31T16:13:42.019</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\red-potion.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\red-potion.png">
       <PackagePath>Assets\red-potion.png</PackagePath>
-      <Modified>2023-05-31T14:45:48.060</Modified>
+      <Modified>2023-05-31T16:13:42.020</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.026</Modified>
+      <Modified>2023-05-31T16:13:41.977</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\SmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.027</Modified>
+      <Modified>2023-05-31T16:13:41.978</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\SmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.027</Modified>
+      <Modified>2023-05-31T16:13:41.978</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.028</Modified>
+      <Modified>2023-05-31T16:13:41.979</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.028</Modified>
+      <Modified>2023-05-31T16:13:41.979</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.028</Modified>
+      <Modified>2023-05-31T16:13:41.979</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.029</Modified>
+      <Modified>2023-05-31T16:13:41.980</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.029</Modified>
+      <Modified>2023-05-31T16:13:41.980</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.030</Modified>
+      <Modified>2023-05-31T16:13:41.982</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.031</Modified>
+      <Modified>2023-05-31T16:13:41.982</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.031</Modified>
+      <Modified>2023-05-31T16:13:41.983</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.031</Modified>
+      <Modified>2023-05-31T16:13:41.983</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.032</Modified>
+      <Modified>2023-05-31T16:13:41.984</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.033</Modified>
+      <Modified>2023-05-31T16:13:41.984</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.033</Modified>
+      <Modified>2023-05-31T16:13:41.985</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.033</Modified>
+      <Modified>2023-05-31T16:13:41.986</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.034</Modified>
+      <Modified>2023-05-31T16:13:41.986</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.034</Modified>
+      <Modified>2023-05-31T16:13:41.986</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.034</Modified>
+      <Modified>2023-05-31T16:13:41.987</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.035</Modified>
+      <Modified>2023-05-31T16:13:41.987</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.035</Modified>
+      <Modified>2023-05-31T16:13:41.988</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.036</Modified>
+      <Modified>2023-05-31T16:13:41.988</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.036</Modified>
+      <Modified>2023-05-31T16:13:41.989</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.037</Modified>
+      <Modified>2023-05-31T16:13:41.989</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.037</Modified>
+      <Modified>2023-05-31T16:13:41.990</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.038</Modified>
+      <Modified>2023-05-31T16:13:41.991</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.038</Modified>
+      <Modified>2023-05-31T16:13:41.991</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.038</Modified>
+      <Modified>2023-05-31T16:13:41.991</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.039</Modified>
+      <Modified>2023-05-31T16:13:41.992</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.040</Modified>
+      <Modified>2023-05-31T16:13:41.993</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.040</Modified>
+      <Modified>2023-05-31T16:13:41.993</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.041</Modified>
+      <Modified>2023-05-31T16:13:41.995</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.041</Modified>
+      <Modified>2023-05-31T16:13:41.996</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.041</Modified>
+      <Modified>2023-05-31T16:13:41.996</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.041</Modified>
+      <Modified>2023-05-31T16:13:41.997</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.043</Modified>
+      <Modified>2023-05-31T16:13:41.997</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.043</Modified>
+      <Modified>2023-05-31T16:13:41.998</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.043</Modified>
+      <Modified>2023-05-31T16:13:41.998</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.044</Modified>
+      <Modified>2023-05-31T16:13:41.999</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.045</Modified>
+      <Modified>2023-05-31T16:13:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\yellow-potion.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\yellow-potion.png">
       <PackagePath>Assets\yellow-potion.png</PackagePath>
-      <Modified>2023-05-31T14:45:48.060</Modified>
+      <Modified>2023-05-31T16:13:42.021</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2023-05-31T14:45:48.025</Modified>
+      <Modified>2023-05-31T16:13:41.976</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.030</Modified>
+      <Modified>2023-05-31T16:13:41.981</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.032</Modified>
+      <Modified>2023-05-31T16:13:41.984</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.037</Modified>
+      <Modified>2023-05-31T16:13:41.990</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.039</Modified>
+      <Modified>2023-05-31T16:13:41.992</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T14:45:48.044</Modified>
+      <Modified>2023-05-31T16:13:41.999</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\fondo_bosque.jpg">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\fondo_bosque.jpg">
       <PackagePath>Assets\fondo_bosque.jpg</PackagePath>
-      <Modified>2023-05-31T14:45:48.051</Modified>
+      <Modified>2023-05-31T16:13:42.007</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\mountain.jpg">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\mountain.jpg">
       <PackagePath>Assets\mountain.jpg</PackagePath>
-      <Modified>2023-05-31T14:45:48.058</Modified>
+      <Modified>2023-05-31T16:13:42.016</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2023-05-31T14:45:48.067</Modified>
+      <Modified>2023-05-31T16:13:42.036</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\IPOkemon Raul Calzado.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\IPOkemon Raul Calzado.xr.xml">
       <PackagePath>IPOkemon Raul Calzado.xr.xml</PackagePath>
-      <Modified>2023-05-31T16:01:44.739</Modified>
+      <Modified>2023-05-31T16:24:19.340</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-05-31T16:07:39.807</Modified>
+      <Modified>2023-05-31T16:24:19.409</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\AcercaPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\AcercaPage.xbf">
       <PackagePath>AcercaPage.xbf</PackagePath>
-      <Modified>2023-05-31T16:07:39.807</Modified>
+      <Modified>2023-05-31T16:24:19.410</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\CombatePage.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\CombatePage.xbf">
       <PackagePath>CombatePage.xbf</PackagePath>
-      <Modified>2023-05-31T16:07:39.807</Modified>
+      <Modified>2023-05-31T16:24:19.410</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\InfoPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\CuidarPage.xbf">
+      <PackagePath>CuidarPage.xbf</PackagePath>
+      <Modified>2023-05-31T16:24:19.410</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\InfoPage.xbf">
       <PackagePath>InfoPage.xbf</PackagePath>
-      <Modified>2023-05-31T16:07:39.808</Modified>
+      <Modified>2023-05-31T16:24:19.410</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\JugadoresPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\JugadoresPage.xbf">
       <PackagePath>JugadoresPage.xbf</PackagePath>
-      <Modified>2023-05-31T16:07:39.808</Modified>
+      <Modified>2023-05-31T16:24:19.410</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\InicioPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\InicioPage.xbf">
       <PackagePath>InicioPage.xbf</PackagePath>
-      <Modified>2023-05-31T16:07:39.808</Modified>
+      <Modified>2023-05-31T16:24:19.411</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-05-31T16:07:39.808</Modified>
+      <Modified>2023-05-31T16:24:19.411</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\PokedexPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\PokedexPage.xbf">
       <PackagePath>PokedexPage.xbf</PackagePath>
-      <Modified>2023-05-31T16:07:39.808</Modified>
+      <Modified>2023-05-31T16:24:19.411</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\SeleccionPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\SeleccionPage.xbf">
       <PackagePath>SeleccionPage.xbf</PackagePath>
-      <Modified>2023-05-31T16:07:39.808</Modified>
+      <Modified>2023-05-31T16:24:19.411</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\ucGengar.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\ucGengar.xbf">
       <PackagePath>ucGengar.xbf</PackagePath>
-      <Modified>2023-05-31T16:07:39.797</Modified>
+      <Modified>2023-05-31T16:24:19.395</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\ucPiplup.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\ucPiplup.xbf">
       <PackagePath>ucPiplup.xbf</PackagePath>
-      <Modified>2023-05-31T16:07:39.807</Modified>
+      <Modified>2023-05-31T16:24:19.409</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
-      <Modified>2020-12-02T02:59:30.000</Modified>
+      <Modified>2020-12-02T03:59:30.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2020-12-02T00:52:06.000</Modified>
+      <Modified>2020-12-02T01:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2022-12-16T01:17:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-31T14:46:20.079</Modified>
+      <Modified>2023-05-31T16:24:19.995</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\Core\IPOkemon Raul Calzado.exe">
+    <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\Core\IPOkemon Raul Calzado.exe">
       <PackagePath>IPOkemon Raul Calzado.exe</PackagePath>
-      <Modified>2023-05-31T16:07:40.790</Modified>
+      <Modified>2023-05-31T16:24:20.902</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Users\pedri\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx">
+    <ResolvedSDKReference Include="C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx">
       <Name>Microsoft.UI.Xaml.2.8</Name>
       <Version>8.2212.15002.0</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2212.15002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\pedri\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <AppxLocation>C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\pedri\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx">
+    <ResolvedSDKReference Include="C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx">
       <Name>Microsoft.UI.Xaml.2.8</Name>
       <Version>8.2212.15002.0</Version>
       <Architecture>Win32</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2212.15002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\pedri\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <AppxLocation>C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\pedri\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx">
+    <ResolvedSDKReference Include="C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx">
       <Name>Microsoft.UI.Xaml.2.8</Name>
       <Version>8.2212.15002.0</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2212.15002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\pedri\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <AppxLocation>C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\pedri\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.8.appx">
+    <ResolvedSDKReference Include="C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.8.appx">
       <Name>Microsoft.UI.Xaml.2.8</Name>
       <Version>8.2212.15002.0</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2212.15002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\pedri\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <AppxLocation>C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\pedri\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.8.appx">
+    <ResolvedSDKReference Include="C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.8.appx">
       <Name>Microsoft.UI.Xaml.2.8</Name>
       <Version>8.2212.15002.0</Version>
       <Architecture>arm64</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2212.15002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\pedri\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <AppxLocation>C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>

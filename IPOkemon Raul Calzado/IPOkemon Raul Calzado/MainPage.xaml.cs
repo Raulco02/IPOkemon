@@ -199,6 +199,10 @@ namespace IPOkemon_Raul_Calzado
         {
             fmMain.Navigate(typeof(JugadoresPage), this);
         }
+        private void irCuidar(object sender, RoutedEventArgs e)
+        {
+            fmMain.Navigate(typeof(CuidarPage));
+        }
         private void irAcerca(object sender, RoutedEventArgs e)
         {
             fmMain.Navigate(typeof(AcercaPage));
