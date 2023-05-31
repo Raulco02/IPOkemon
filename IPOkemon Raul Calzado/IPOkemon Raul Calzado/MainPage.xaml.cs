@@ -3,10 +3,12 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Resources;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading;
 using System.Threading.Tasks;
 using Windows.ApplicationModel.Resources;
+using Windows.ApplicationModel.Resources.Core;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Globalization;
@@ -31,6 +33,7 @@ namespace IPOkemon_Raul_Calzado
     {
         public System.Threading.Timer timer;
         private int segundosRestantes;
+        ResourceLoader resourceLoader;
 
         public MainPage()
         {
@@ -47,6 +50,15 @@ namespace IPOkemon_Raul_Calzado
 
             SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Collapsed;
             SystemNavigationManager.GetForCurrentView().BackRequested += MainPage_BackRequested;
+
+            string defaultLanguage = Windows.Globalization.ApplicationLanguages.Languages[0];
+
+            // Crear un ResourceContext utilizando el idioma predeterminado
+            var resourceContext = ResourceContext.GetForCurrentView();
+            resourceContext.Languages = new List<string> { defaultLanguage };
+
+            // Obtener el ResourceLoader utilizando el ResourceContext
+            resourceLoader = ResourceLoader.GetForCurrentView();
         }
 
         private void tiles()
@@ -194,6 +206,40 @@ namespace IPOkemon_Raul_Calzado
         private void irInicio(object sender, RoutedEventArgs e)
         {
             fmMain.Navigate(typeof(InicioPage));
+
+        }
+        private async void CambiarIdioma_Click(object sender, RoutedEventArgs e)
+        {
+            string titulo = resourceLoader.GetString("tituloCambioIdioma"); ;
+            string contenido = resourceLoader.GetString("contenidoCambioIdioma"); ;
+            string cancelar = resourceLoader.GetString("cancelar"); ;
+            ContentDialog dialog = new ContentDialog
+            {
+                Title = titulo,
+                Content = contenido,
+                CloseButtonText = cancelar
+            };
+
+            // Agrega opciones de idioma al diálogo
+            dialog.PrimaryButtonText = "Español";
+            dialog.PrimaryButtonClick += (dialogSender, args) =>
+            {
+                CambiarIdioma("es-ES"); // Cambiar al idioma español
+            };
+
+            dialog.SecondaryButtonText = "English";
+            dialog.SecondaryButtonClick += (dialogSender, args) =>
+            {
+                CambiarIdioma("en-US"); // Cambiar al idioma inglés
+            };
+
+            await dialog.ShowAsync();
+        }
+        private void CambiarIdioma(string codigoIdioma)
+        {
+            ApplicationLanguages.PrimaryLanguageOverride = codigoIdioma;
+            Frame rootFrame = Window.Current.Content as Frame;
+            rootFrame.Navigate(rootFrame.Content.GetType());
 
         }
         private void btnCompactar_Click(object sender, RoutedEventArgs e)
