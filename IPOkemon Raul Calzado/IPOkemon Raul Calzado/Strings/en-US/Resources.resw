@@ -144,6 +144,9 @@
   <data name="btnAtaqueAla.Content" xml:space="preserve">
     <value>Wing Attack</value>
   </data>
+  <data name="btnAtaqueAla.FontSize" xml:space="preserve">
+    <value>16</value>
+  </data>
   <data name="btnBurbuja.Content" xml:space="preserve">
     <value>Bubble</value>
   </data>
@@ -155,6 +158,9 @@
   </data>
   <data name="btnRoca.Content" xml:space="preserve">
     <value>Rock Throw</value>
+  </data>
+  <data name="btnRoca.FontSize" xml:space="preserve">
+    <value>18</value>
   </data>
   <data name="BusquedaPokemon.PlaceholderText" xml:space="preserve">
     <value>Search</value>
