@@ -81,7 +81,7 @@ namespace IPOkemon_Raul_Calzado
                     if (nombrePropiedad != null)
                     {
                         string nombrePokemon = nombrePropiedad.GetValue(control) as string;
-                        if (nombrePokemon.Contains(pokemon_buscado.ToLower()))
+                        if (nombrePokemon.ToLower().StartsWith(pokemon_buscado.ToLower()))
                         {
                             resultados.Add(control);
                         }

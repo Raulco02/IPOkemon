@@ -285,3 +285,6 @@ C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Pedro\IPOkemon\IPOkemon Raul 
 C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Pedro\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424743200000000.json
 C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Pedro\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424779200000000.json
 C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Pedro\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\obj\x86\Debug\.winmd_cache\$Microsoft.Web.WebView2.Core.winmd_637920505780000000.json
+C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\Microsoft.Toolkit.Uwp.Notifications.dll
+C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\Microsoft.Toolkit.Uwp.Notifications.pdb
+C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\obj\x86\Debug\Microsoft.Toolkit.Uwp.Notifications.pri.xml

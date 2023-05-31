@@ -6,12 +6,14 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Core;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
@@ -27,8 +29,8 @@ namespace IPOkemon_Raul_Calzado
         public SeleccionPage()
         {
             this.InitializeComponent();
-
         }
+
         public ObservableCollection<Control> Pokemons { get; set; } = new ObservableCollection<Control>()
         {
             new ucGengar(),
@@ -44,6 +46,7 @@ namespace IPOkemon_Raul_Calzado
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             base.OnNavigatedTo(e);
+            SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
 
             // Obtener el control de usuario pasado como parámetro
             multi = (bool)e.Parameter;
