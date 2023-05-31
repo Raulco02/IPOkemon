@@ -120,6 +120,9 @@
   <data name="AlturaPokemon.Text" xml:space="preserve">
     <value>Height</value>
   </data>
+  <data name="ataqueAla" xml:space="preserve">
+    <value>Wing Attack</value>
+  </data>
   <data name="BotonAcerca.Content" xml:space="preserve">
     <value>About</value>
   </data>
@@ -162,14 +165,56 @@
   <data name="btnRoca.FontSize" xml:space="preserve">
     <value>18</value>
   </data>
+  <data name="burbuja" xml:space="preserve">
+    <value>Bubble</value>
+  </data>
   <data name="BusquedaPokemon.PlaceholderText" xml:space="preserve">
     <value>Search</value>
+  </data>
+  <data name="comienzoCombate" xml:space="preserve">
+    <value>The battle is about to start!</value>
+  </data>
+  <data name="descanso" xml:space="preserve">
+    <value>Rest</value>
+  </data>
+  <data name="descripcionGengar" xml:space="preserve">
+    <value>To take the life of its prey, it slips into its shadow and waits for its chance in silence.</value>
+  </data>
+  <data name="descripcionPiplup" xml:space="preserve">
+    <value>He does not like to be looked after. As he does not appreciate the support of his Trainer, he finds it difficult to gain confidence with him.</value>
+  </data>
+  <data name="dialogoAtaque" xml:space="preserve">
+    <value>used</value>
+  </data>
+  <data name="dialogoDebilitado" xml:space="preserve">
+    <value>fainted. End of the battle.</value>
+  </data>
+  <data name="dialogoDebilitados" xml:space="preserve">
+    <value>fainted. End of the battle.</value>
+  </data>
+  <data name="dialogoFallo" xml:space="preserve">
+    <value>failed</value>
+  </data>
+  <data name="dialogoMuerteSubita" xml:space="preserve">
+    <value>used Sudden Death.</value>
+  </data>
+  <data name="lanzarrocas" xml:space="preserve">
+    <value>Rock Throw</value>
   </data>
   <data name="lblEleccion.Text" xml:space="preserve">
     <value>Choose a play mode</value>
   </data>
+  <data name="muerteSubita" xml:space="preserve">
+    <value>Sudden Death</value>
+  </data>
   <data name="PesoPokemon.Text" xml:space="preserve">
     <value>Weight</value>
+  </data>
+  <data name="proteccion" xml:space="preserve">
+    <value>Protect</value>
+  </data>
+  <data name="psiquico" xml:space="preserve">
+    <value>Psychic</value>
   </data>
   <data name="tbBienvenido.Text" xml:space="preserve">
     <value>Welcome to IPOKémon!</value>
@@ -178,5 +223,14 @@
     <value>Welcome to IPOkémon! Here you will find detailed information about each of the Pokémon that inhabit this vast world. Explore their abilities, characteristics and types to create the perfect team. But remember, the real challenge is in the battle. Master the strategies and tactics to confront other trainers. Choose your moves wisely, exploit type advantages and unleash powerful special attacks. Each encounter is an opportunity to demonstrate your skill and achieve victory. Get ready to unleash the full potential of your Pokémon and become an IPOkémon master!
 
 </value>
+  </data>
+  <data name="tipoGengar" xml:space="preserve">
+    <value>Ghost, Poison</value>
+  </data>
+  <data name="tipoPiplup" xml:space="preserve">
+    <value>Water</value>
+  </data>
+  <data name="y" xml:space="preserve">
+    <value>and</value>
   </data>
 </root>

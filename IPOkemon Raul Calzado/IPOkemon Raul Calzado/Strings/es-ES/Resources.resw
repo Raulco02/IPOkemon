@@ -120,6 +120,9 @@
   <data name="AlturaPokemon.Text" xml:space="preserve">
     <value>Altura</value>
   </data>
+  <data name="ataqueAla" xml:space="preserve">
+    <value>Ataque Ala</value>
+  </data>
   <data name="BotonAcerca.Content" xml:space="preserve">
     <value>Acerca de</value>
   </data>
@@ -162,19 +165,70 @@
   <data name="btnRoca.FontSize" xml:space="preserve">
     <value>16</value>
   </data>
+  <data name="burbuja" xml:space="preserve">
+    <value>Burbuja</value>
+  </data>
   <data name="BusquedaPokemon.PlaceholderText" xml:space="preserve">
     <value>Buscar</value>
+  </data>
+  <data name="comienzoCombate" xml:space="preserve">
+    <value>¡Da comienzo el combate! Se enfrentarán</value>
+  </data>
+  <data name="descanso" xml:space="preserve">
+    <value>Descanso</value>
+  </data>
+  <data name="descripcionGengar" xml:space="preserve">
+    <value>Para quitarle la vida a su presa, se desliza en su sombra y espera su oportunidad en silencio.</value>
+  </data>
+  <data name="descripcionPiplup" xml:space="preserve">
+    <value>No le gusta que lo cuiden. Como no aprecia el apoyo de su Entrenador, le cuesta coger confianza con él.</value>
+  </data>
+  <data name="dialogoAtaque" xml:space="preserve">
+    <value>usó</value>
+  </data>
+  <data name="dialogoDebilitado" xml:space="preserve">
+    <value>ha sido debilitado. Fin del combate</value>
+  </data>
+  <data name="dialogoDebilitados" xml:space="preserve">
+    <value>han sido debilitados. Fin del combate</value>
+  </data>
+  <data name="dialogoFallo" xml:space="preserve">
+    <value>falló</value>
+  </data>
+  <data name="dialogoMuerteSubita" xml:space="preserve">
+    <value>ha usado muerte súbita.</value>
+  </data>
+  <data name="lanzarrocas" xml:space="preserve">
+    <value>Lanzarrocas</value>
   </data>
   <data name="lblEleccion.Text" xml:space="preserve">
     <value>Elige un modo de juego</value>
   </data>
+  <data name="muerteSubita" xml:space="preserve">
+    <value>Muerte Súbita</value>
+  </data>
   <data name="PesoPokemon.Text" xml:space="preserve">
     <value>Peso</value>
+  </data>
+  <data name="proteccion" xml:space="preserve">
+    <value>Protección</value>
+  </data>
+  <data name="psiquico" xml:space="preserve">
+    <value>Psíquico</value>
   </data>
   <data name="tbBienvenido.Text" xml:space="preserve">
     <value>¡Bienvenid@ a IPOkémon!</value>
   </data>
   <data name="tbTextoInicio.Text" xml:space="preserve">
     <value>¡Bienvenido a IPOkémon! Aquí encontrarás información detallada sobre cada uno de los Pokémon que habitan en este vasto mundo. Explora sus habilidades, características y tipos para crear el equipo perfecto. Pero recuerda, el verdadero desafío está en el combate. Domina las estrategias y tácticas para enfrentarte a otros entrenadores. Elige sabiamente tus movimientos, aprovecha las ventajas de tipo y desata poderosos ataques especiales. Cada encuentro es una oportunidad para demostrar tu habilidad y alcanzar la victoria. ¡Prepárate para desencadenar todo el potencial de tus Pokémon y convertirte en un maestro de IPOkémon!</value>
+  </data>
+  <data name="tipoGengar" xml:space="preserve">
+    <value>Fantasma, Veneno</value>
+  </data>
+  <data name="tipoPiplup" xml:space="preserve">
+    <value>Agua</value>
+  </data>
+  <data name="y" xml:space="preserve">
+    <value>y</value>
   </data>
 </root>

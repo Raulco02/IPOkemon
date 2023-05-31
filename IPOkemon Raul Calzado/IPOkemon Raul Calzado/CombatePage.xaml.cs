@@ -6,6 +6,8 @@ using System.Reflection;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading;
 using System.Threading.Tasks;
+using Windows.ApplicationModel.Resources;
+using Windows.ApplicationModel.Resources.Core;
 using Windows.ApplicationModel.VoiceCommands;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
@@ -30,6 +32,7 @@ namespace IPOkemon_Raul_Calzado
     }
     public sealed partial class CombatePage : Page
     {
+        ResourceLoader resourceLoader;
         public Control luchador1;
         public Control luchador2;
         public InPokemon iLuchador1;
@@ -62,6 +65,16 @@ namespace IPOkemon_Raul_Calzado
             multi = (bool)luchadores[2];
             iLuchador1 = (InPokemon)luchador1;
             iLuchador2 = (InPokemon)luchador2;
+
+            string defaultLanguage = Windows.Globalization.ApplicationLanguages.Languages[0];
+
+            // Crear un ResourceContext utilizando el idioma predeterminado
+            var resourceContext = ResourceContext.GetForCurrentView();
+            resourceContext.Languages = new List<string> { defaultLanguage };
+
+            // Obtener el ResourceLoader utilizando el ResourceContext
+            resourceLoader = ResourceLoader.GetForCurrentView();
+
             comenzarCombate();
 
             var viewModel = new CombateViewModel()
@@ -78,6 +91,8 @@ namespace IPOkemon_Raul_Calzado
             iLuchador2.muerteSubita += muerteSubita;
             iLuchador1.ataqueFallado += ataque_fallado;
             iLuchador2.ataqueFallado += ataque_fallado_2;
+
+            
         }
 
         public void comenzarCombate()
@@ -89,7 +104,40 @@ namespace IPOkemon_Raul_Calzado
             luchador2.GetType().GetMethod("verAcciones")?.Invoke(luchador2, new object[] { false });
             string nombre1 = (string)luchador1.GetType().GetProperty("Nombre").GetValue((object)luchador1, null);
             string nombre2 = (string)luchador2.GetType().GetProperty("Nombre").GetValue((object)luchador2, null);
-            Texto.Text = "¡Da comienzo el combate! Se enfrentarán " + nombre1 + " vs " + nombre2 + ".";
+
+            string comienzo = resourceLoader.GetString("comienzoCombate");
+
+            Texto.Text = comienzo + " " + nombre1 + " vs " + nombre2 + ".";
+        }
+
+        public string obtenerAtaque(string nombre)
+        {
+            string nombreCorrecto = "";
+            switch (nombre)
+            {
+                case "Ataque ala":
+                    nombreCorrecto = resourceLoader.GetString("ataqueAla");
+                    break;
+                case "Lanzarrocas":
+                    nombreCorrecto = resourceLoader.GetString("lanzarrocas");
+                    break;
+                case "Burbuja":
+                    nombreCorrecto = resourceLoader.GetString("burbuja");
+                    break;
+                case "Descanso":
+                    nombreCorrecto = resourceLoader.GetString("descanso");
+                    break;
+                case "Protección":
+                    nombreCorrecto = resourceLoader.GetString("proteccion");
+                    break;
+                case "Psíquico":
+                    nombreCorrecto = resourceLoader.GetString("psiquico");
+                    break;
+                case "Muerte súbita":
+                    nombreCorrecto = resourceLoader.GetString("muerteSubita");
+                    break;
+            }
+            return nombreCorrecto;
         }
 
         public void ataque_realizado(object sender, Ataque e)
@@ -157,8 +205,10 @@ namespace IPOkemon_Raul_Calzado
                 escribirAtaque(sender, e);
             else
             {
+                string dialogoFallo = resourceLoader.GetString("dialogoFallo");
                 string nombre = (string)sender.GetType().GetProperty("Nombre").GetValue((object)sender, null);
-                Texto.Text = e.nombre + " de " + nombre + " ha fallado.";
+                string ataque = obtenerAtaque(e.nombre);
+                Texto.Text = nombre + " " + dialogoFallo + " " + ataque;
             }
             if (multi)
                 cambiarTurnoA(2);
@@ -176,9 +226,10 @@ namespace IPOkemon_Raul_Calzado
                 escribirAtaque(sender, e);
             else
             {
+                string dialogoFallo = resourceLoader.GetString("dialogoFallo");
                 string nombre = (string)sender.GetType().GetProperty("Nombre").GetValue((object)sender, null);
-                Texto.Text = e.nombre + " de " + nombre + " ha fallado.";
-
+                string ataque = obtenerAtaque(e.nombre);
+                Texto.Text = nombre + " " + dialogoFallo + " " + ataque;
             }
             cambiarTurnoA(1);
         }
@@ -205,12 +256,15 @@ namespace IPOkemon_Raul_Calzado
         public void escribirAtaque(object luchador, Ataque e)
         {
             string nombre = (string)luchador.GetType().GetProperty("Nombre").GetValue((object)luchador, null);
-            Texto.Text = nombre + " usó " + e.nombre;
+            string dialogoAtaque = resourceLoader.GetString("dialogoAtaque");
+            string ataque = obtenerAtaque(e.nombre);
+            Texto.Text = nombre + " " + dialogoAtaque + " " + ataque;
         }
 
         public void debilitado(object sender, string e)
         {
-            Texto.Text = e + " ha sido debilitado. Fin del combate";
+            string debilitado = resourceLoader.GetString("dialogoDebilitado");
+            Texto.Text = e + " " + debilitado;
             Esperar(4);
         }
 
@@ -227,7 +281,12 @@ namespace IPOkemon_Raul_Calzado
             string nombre1 = (string)luchador1.GetType().GetProperty("Nombre").GetValue((object)luchador1, null);
             string nombre2 = (string)luchador2.GetType().GetProperty("Nombre").GetValue((object)luchador2, null);
             string senderName = (string)sender.GetType().GetProperty("Nombre").GetValue((object)sender, null);
-            Texto.Text = senderName + " ha usado muerte súbita. " + nombre1 + " y " + nombre2 + " han sido debilitados. Fin del combate";
+
+            string muerteSubita = resourceLoader.GetString("dialogoMuerteSubita");
+            string y = resourceLoader.GetString("y");
+            string debilitados = resourceLoader.GetString("dialogoDebilitados");
+
+            Texto.Text = senderName + " " + muerteSubita + " " + nombre1 + " " + y + " " + nombre2 + " " + debilitados;
             Esperar(4);
         }
 

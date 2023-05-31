@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.ApplicationModel.Resources;
+using Windows.ApplicationModel.Resources.Core;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -24,7 +26,9 @@ namespace IPOkemon_Raul_Calzado
     {
 
         List<UserControl> listaPokemon = new List<UserControl>();
-        public PokedexPage()
+        ResourceLoader resourceLoader;
+
+    public PokedexPage()
         {
             this.InitializeComponent();
             this.ucGengar.verAcciones(false);
@@ -47,18 +51,34 @@ namespace IPOkemon_Raul_Calzado
             {
                 listaPokemon.Add((UserControl) item);
             }
+
+            string defaultLanguage = Windows.Globalization.ApplicationLanguages.Languages[0];
+
+            // Crear un ResourceContext utilizando el idioma predeterminado
+            var resourceContext = ResourceContext.GetForCurrentView();
+            resourceContext.Languages = new List<string> { defaultLanguage };
+
+            // Obtener el ResourceLoader utilizando el ResourceContext
+            resourceLoader = ResourceLoader.GetForCurrentView();
         }
 
         private void ucPiplup1_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
-            Pokemon piplup = new Pokemon("Piplup", "No le gusta que lo cuiden. Como no aprecia el apoyo de su Entrenador, le cuesta coger confianza con él.", 0.4, 5.2, "Agua", "Assets/piplup.png");
+            // Obtener la cadena de texto utilizando el ResourceLoader
+            string descripcion = resourceLoader.GetString("descripcionPiplup");
+            string tipo = resourceLoader.GetString("tipoPiplup");
+
+            Pokemon piplup = new Pokemon("Piplup", descripcion, 0.4, 5.2, tipo, "Assets/piplup.png");
             Frame aux = (Frame)this.Parent;
             aux.Navigate(typeof(InfoPage), piplup);
         }
 
         private void ucGengar_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
-            Pokemon gengar = new Pokemon("Gengar", "Para quitarle la vida a su presa, se desliza en su sombra y espera su oportunidad en silencio.", 1.5, 40.5, "Fantasma, Veneno", "Assets/gengar.png");
+            string descripcion = resourceLoader.GetString("descripcionGengar");
+            string tipo = resourceLoader.GetString("tipoGengar");
+
+            Pokemon gengar = new Pokemon("Gengar", descripcion, 1.5, 40.5, tipo, "Assets/gengar.png");
             Frame aux = (Frame)this.Parent;
             aux.Navigate(typeof(InfoPage), gengar);
         }
