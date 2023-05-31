@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pedri\\OneDrive\\Documentos\\IPOkemon\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado.csproj": {}
+    "C:\\Users\\pedri\\OneDrive\\Escritorio\\IPOkemon\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pedri\\OneDrive\\Documentos\\IPOkemon\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado.csproj": {
+    "C:\\Users\\pedri\\OneDrive\\Escritorio\\IPOkemon\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pedri\\OneDrive\\Documentos\\IPOkemon\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado.csproj",
+        "projectUniqueName": "C:\\Users\\pedri\\OneDrive\\Escritorio\\IPOkemon\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado.csproj",
         "projectName": "IPOkemon Raul Calzado",
-        "projectPath": "C:\\Users\\pedri\\OneDrive\\Documentos\\IPOkemon\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado.csproj",
+        "projectPath": "C:\\Users\\pedri\\OneDrive\\Escritorio\\IPOkemon\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado.csproj",
         "packagesPath": "C:\\Users\\pedri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pedri\\OneDrive\\Documentos\\IPOkemon\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\obj\\",
+        "outputPath": "C:\\Users\\pedri\\OneDrive\\Escritorio\\IPOkemon\\IPOkemon Raul Calzado\\IPOkemon Raul Calzado\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

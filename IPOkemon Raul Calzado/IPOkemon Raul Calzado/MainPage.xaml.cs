@@ -38,7 +38,7 @@ namespace IPOkemon_Raul_Calzado
 
             tiles();
 
-            segundosRestantes = 10;
+            segundosRestantes = 120;
             timer = new System.Threading.Timer(TimerCallback, null, 0, 1000);
 
             fmMain.Navigate(typeof(InicioPage));
