@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Poké_Ball_icon.svg.png</Source>
+    <SmallTileSource>C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Poké_Ball_icon.svg.png</SmallTileSource>
+    <MediumTileSource>C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Poké_Ball_icon.svg.png</MediumTileSource>
+    <WideTileSource>C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Poké_Ball_icon.svg.png</WideTileSource>
+    <LargeTileSource>C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Poké_Ball_icon.svg.png</LargeTileSource>
+    <AppIconSource>C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Poké_Ball_icon.svg.png</AppIconSource>
+    <SplashScreenSource>C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Poké_Ball_icon.svg.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\pedri\OneDrive\Documentos\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\Assets\Poké_Ball_icon.svg.png</PackageLogoSource>
+  </PropertyGroup>
+</Project>

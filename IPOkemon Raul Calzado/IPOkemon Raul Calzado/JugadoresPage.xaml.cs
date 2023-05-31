@@ -26,6 +26,7 @@ namespace IPOkemon_Raul_Calzado
     public sealed partial class JugadoresPage : Page
     {
         public bool multi;
+        private MainPage mainPage;
         public JugadoresPage()
         {
             this.InitializeComponent();
@@ -37,10 +38,16 @@ namespace IPOkemon_Raul_Calzado
         {
             base.OnNavigatedTo(e);
             SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
+
+            if (e.Parameter is MainPage)
+            {
+                this.mainPage = (MainPage)e.Parameter;
+            }
         }
 
         private void btn1jug_Click(object sender, RoutedEventArgs e)
         {
+            this.mainPage.timer.Dispose();
             multi = false;
             Frame aux = (Frame)this.Parent;
             aux.Navigate(typeof(SeleccionPage), multi);
@@ -48,6 +55,7 @@ namespace IPOkemon_Raul_Calzado
 
         private void btn2jug_Click(object sender, RoutedEventArgs e)
         {
+            this.mainPage.timer.Dispose();
             multi = true;
             Frame aux = (Frame)this.Parent;
             aux.Navigate(typeof(SeleccionPage), multi);

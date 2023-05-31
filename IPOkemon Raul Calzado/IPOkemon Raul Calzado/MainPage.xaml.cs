@@ -29,11 +29,17 @@ namespace IPOkemon_Raul_Calzado
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        public System.Threading.Timer timer;
+        private int segundosRestantes;
+
         public MainPage()
         {
             this.InitializeComponent();
 
             tiles();
+
+            segundosRestantes = 10;
+            timer = new System.Threading.Timer(TimerCallback, null, 0, 1000);
 
             fmMain.Navigate(typeof(InicioPage));
             Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().SetPreferredMinSize(new Size(320, 320));
@@ -124,6 +130,27 @@ namespace IPOkemon_Raul_Calzado
             updater.Update(notification);
         }
 
+        private void TimerCallback(object state)
+        {
+            segundosRestantes--;
+
+            if (segundosRestantes <= 0)
+            {
+                CancelarTemporizador();
+                new ToastContentBuilder()
+                            .AddArgument("action", "Combate")
+                            .AddArgument("conversationId", 9813)
+                            .AddText("¡Ven a combatir contra otros Pokémon!")
+                            .AddText("Puedes combatir accediendo a la sección de Combate")
+                            .Show();
+            }
+        }
+
+        private void CancelarTemporizador()
+        {
+            timer.Dispose();
+        }
+
         private void MainPage_BackRequested(object sender, BackRequestedEventArgs e)
         {
             var currentPage = fmMain.Content as Page;
@@ -158,7 +185,7 @@ namespace IPOkemon_Raul_Calzado
         }
         private void irCombate(object sender, RoutedEventArgs e)
         {
-            fmMain.Navigate(typeof(JugadoresPage));
+            fmMain.Navigate(typeof(JugadoresPage), this);
         }
         private void irAcerca(object sender, RoutedEventArgs e)
         {
