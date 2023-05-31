@@ -288,3 +288,6 @@ C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Pedro\IPOkemon\IPOkemon Raul 
 C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\Microsoft.Toolkit.Uwp.Notifications.dll
 C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\Microsoft.Toolkit.Uwp.Notifications.pdb
 C:\Users\pedri\OneDrive\Escritorio\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\obj\x86\Debug\Microsoft.Toolkit.Uwp.Notifications.pri.xml
+C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Pedro\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\Microsoft.Toolkit.Uwp.Notifications.dll
+C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Pedro\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\Microsoft.Toolkit.Uwp.Notifications.pdb
+C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\IPOkemon Pedro\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\obj\x86\Debug\Microsoft.Toolkit.Uwp.Notifications.pri.xml

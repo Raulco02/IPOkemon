@@ -140,10 +140,10 @@
                     <ColumnDefinition Width="30*"/>
                 </Grid.ColumnDefinitions>
                 <TextBlock x:Name="tbNombre" Grid.Column="2" Text="Piplup" FontSize="48" FocusVisualPrimaryBrush="Black" Foreground="Black"/>
-                <Button x:Name="btnAtaqueAla" Grid.Column="0" Content="Ataque Ala" Height="70" Width="90" BorderBrush="#FFA2FFF0" Foreground="Black" Background="White" FontWeight="Bold" Padding="5" Margin="0,0,0,5" Click="btnAtaqueAla_Click"/>
-                <Button x:Name="btnBurbuja" Grid.Column="1" Content="Burbuja" Height="70" Width="90" BorderBrush="#FF1550C5" Foreground="Black" Background="White" FontWeight="Bold" Padding="5" Margin="0,0,0,5" Click="btnBurbuja_Click"/>
-                <Button x:Name="btnRoca" Grid.Column="3" Content="Lanzarrocas" Height="70" Width="92" BorderBrush="#FF543209" Foreground="Black" Background="White" FontWeight="Bold" Padding="5" Margin="0,0,0,5" Click="btnRoca_Click" FontSize="14"/>
-                <Button x:Name="btnDescanso" Grid.Column="4" Content="Descanso" Height="70" Width="90" BorderBrush="#FF4C4848" Foreground="Black" Background="White" FontWeight="Bold" Padding="5" Margin="0,0,0,5" Click="btnDescanso_Click"/>
+                <Button x:Name="btnAtaqueAla" x:Uid="btnAtaqueAla" Grid.Column="0" Content="Ataque Ala" Height="70" Width="110" BorderBrush="#FFA2FFF0" Foreground="Black" Background="White" FontWeight="Bold" Padding="5" Margin="0,0,0,5" Click="btnAtaqueAla_Click" FontSize="17"/>
+                <Button x:Name="btnBurbuja" x:Uid="btnBurbuja" Grid.Column="1" Content="Burbuja" Height="70" Width="110" BorderBrush="#FF1550C5" Foreground="Black" Background="White" FontWeight="Bold" Padding="5" Margin="0,0,0,5" Click="btnBurbuja_Click" FontSize="17"/>
+                <Button x:Name="btnRoca" x:Uid="btnRoca" Grid.Column="3" Content="Lanzarrocas" Height="70" Width="110" BorderBrush="#FF543209" Foreground="Black" Background="White" FontWeight="Bold" Padding="5" Margin="0,0,0,5" Click="btnRoca_Click" FontSize="17"/>
+                <Button x:Name="btnDescanso" x:Uid="btnDescanso" Grid.Column="4" Content="Descanso" Height="70" Width="110" BorderBrush="#FF4C4848" Foreground="Black" Background="White" FontWeight="Bold" Padding="5" Margin="0,0,0,5" Click="btnDescanso_Click" FontSize="17"/>
             </Grid>
         </Viewbox>
         <Viewbox Grid.Column="1" Grid.Row="2">

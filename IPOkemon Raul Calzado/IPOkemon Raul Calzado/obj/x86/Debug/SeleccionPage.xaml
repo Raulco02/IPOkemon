@@ -33,7 +33,7 @@
             </FlipView.ItemTemplate>
         </FlipView>
         
-        <Button x:ConnectionId='4' x:Name="btnLuchar" Content="Luchar" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Top"                        />
+        <Button x:ConnectionId='4' x:Name="btnLuchar" x:Uid="btnLuchar" Content="Luchar" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Top"                        />
     </Grid>
 </Page>
 

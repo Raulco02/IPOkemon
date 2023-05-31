@@ -141,8 +141,26 @@
   <data name="BotonUnJugador.Content" xml:space="preserve">
     <value>1 Jugador</value>
   </data>
+  <data name="btnAtaqueAla.Content" xml:space="preserve">
+    <value>Ataque Ala</value>
+  </data>
+  <data name="btnBurbuja.Content" xml:space="preserve">
+    <value>Burbuja</value>
+  </data>
+  <data name="btnDescanso.Content" xml:space="preserve">
+    <value>Descanso</value>
+  </data>
+  <data name="btnLuchar.Content" xml:space="preserve">
+    <value>Luchar</value>
+  </data>
+  <data name="btnRoca.Content" xml:space="preserve">
+    <value>Lanzarrocas</value>
+  </data>
   <data name="BusquedaPokemon.PlaceholderText" xml:space="preserve">
     <value>Buscar</value>
+  </data>
+  <data name="lblEleccion.Text" xml:space="preserve">
+    <value>Elige un modo de juego</value>
   </data>
   <data name="PesoPokemon.Text" xml:space="preserve">
     <value>Peso</value>
