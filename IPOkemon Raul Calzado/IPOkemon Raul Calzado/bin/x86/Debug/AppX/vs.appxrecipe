@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T16:39:53.907</Modified>
+      <Modified>2023-05-31T17:04:10.161</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\IPOkemon Raul Calzado.exe">
       <PackagePath>entrypoint\IPOkemon Raul Calzado.exe</PackagePath>
-      <Modified>2023-05-31T16:37:17.075</Modified>
+      <Modified>2023-05-31T17:04:08.796</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.web.webview2\1.0.1264.42\build\..\runtimes\win-x86\native_uap\Microsoft.Web.WebView2.Core.dll">
       <PackagePath>Microsoft.Web.WebView2.Core.dll</PackagePath>
@@ -394,55 +394,55 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\IPOkemon Raul Calzado.xr.xml">
       <PackagePath>IPOkemon Raul Calzado.xr.xml</PackagePath>
-      <Modified>2023-05-31T16:24:19.340</Modified>
+      <Modified>2023-05-31T17:04:08.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-05-31T16:39:52.437</Modified>
+      <Modified>2023-05-31T17:04:08.629</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\AcercaPage.xbf">
       <PackagePath>AcercaPage.xbf</PackagePath>
-      <Modified>2023-05-31T16:39:52.437</Modified>
+      <Modified>2023-05-31T17:04:08.629</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\CombatePage.xbf">
       <PackagePath>CombatePage.xbf</PackagePath>
-      <Modified>2023-05-31T16:39:52.437</Modified>
+      <Modified>2023-05-31T17:04:08.629</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\CuidarPage.xbf">
       <PackagePath>CuidarPage.xbf</PackagePath>
-      <Modified>2023-05-31T16:39:52.438</Modified>
+      <Modified>2023-05-31T17:04:08.630</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\InfoPage.xbf">
       <PackagePath>InfoPage.xbf</PackagePath>
-      <Modified>2023-05-31T16:39:52.438</Modified>
+      <Modified>2023-05-31T17:04:08.630</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\JugadoresPage.xbf">
       <PackagePath>JugadoresPage.xbf</PackagePath>
-      <Modified>2023-05-31T16:39:52.438</Modified>
+      <Modified>2023-05-31T17:04:08.630</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\InicioPage.xbf">
       <PackagePath>InicioPage.xbf</PackagePath>
-      <Modified>2023-05-31T16:39:52.438</Modified>
+      <Modified>2023-05-31T17:04:08.630</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-05-31T16:39:52.438</Modified>
+      <Modified>2023-05-31T17:04:08.630</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\PokedexPage.xbf">
       <PackagePath>PokedexPage.xbf</PackagePath>
-      <Modified>2023-05-31T16:39:52.439</Modified>
+      <Modified>2023-05-31T17:04:08.631</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\SeleccionPage.xbf">
       <PackagePath>SeleccionPage.xbf</PackagePath>
-      <Modified>2023-05-31T16:39:52.439</Modified>
+      <Modified>2023-05-31T17:04:08.631</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\ucGengar.xbf">
       <PackagePath>ucGengar.xbf</PackagePath>
-      <Modified>2023-05-31T16:39:52.426</Modified>
+      <Modified>2023-05-31T17:04:08.608</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\ucPiplup.xbf">
       <PackagePath>ucPiplup.xbf</PackagePath>
-      <Modified>2023-05-31T16:39:52.437</Modified>
+      <Modified>2023-05-31T17:04:08.628</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -458,11 +458,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-31T16:39:52.895</Modified>
+      <Modified>2023-05-31T17:04:09.217</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Desktop\Apuntes\IPO2\Lab\sincro2\IPOkemon\IPOkemon Raul Calzado\IPOkemon Raul Calzado\bin\x86\Debug\Core\IPOkemon Raul Calzado.exe">
       <PackagePath>IPOkemon Raul Calzado.exe</PackagePath>
-      <Modified>2023-05-31T16:39:53.902</Modified>
+      <Modified>2023-05-31T17:04:10.156</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

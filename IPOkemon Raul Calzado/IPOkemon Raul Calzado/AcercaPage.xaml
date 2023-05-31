@@ -21,8 +21,9 @@
             <RowDefinition Height="51*"/>
         </Grid.RowDefinitions>
         <Viewbox Grid.Column="1" Grid.Row="1">
-            <TextBox TextWrapping="Wrap" IsEnabled="False" Width="477" Text="Este proyecto ha sido realizado por Raúl Calzado Olmo y Pedro Campos Castellanos. En la Pokedex hay Pokémon repetidos porque solo teníamos 2 y los hemos puesto varias veces para que veas como sería la Pokedex y como se iría adaptando con varios Pokemon, aunque solo son funcionales dos Pokemon. En cuanto al cambio de idioma, si no funciona a la primera debes darle otra vez al botón y seleccionar de nuevo el idioma."/>
+            <TextBox x:Name="tbAcerca" x:Uid="tbAcerca" TextWrapping="Wrap" IsEnabled="False" Width="477" Text="Este proyecto ha sido realizado por Raúl Calzado Olmo y Pedro Campos Castellanos. En la Pokedex hay Pokémon repetidos porque solo teníamos 2 y los hemos puesto varias veces para que se vea como sería la Pokedex y como se adaptaría con varios Pokemon, aunque solo son funcionales dos. La sección combate permite librar batallas pokemon en solitario y junto a otro jugador. En la sección practica puedes ver los pokemon disponibles y ver sus animaciones y ataques. En cuanto al cambio de idioma, en Windows 11 experimentamos un error de compatibilidad, por lo que si no funciona la primera vez que pulses el botón, debes volver a hacerlo y seleccionar de nuevo el idioma."/>
         </Viewbox>
+        
 
 
 

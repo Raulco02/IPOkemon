@@ -261,6 +261,9 @@
   <data name="psiquico" xml:space="preserve">
     <value>Psychic</value>
   </data>
+  <data name="tbAcerca.Text" xml:space="preserve">
+    <value>This project has been made by Raúl Calzado Olmo and Pedro Campos Castellanos. There are repeated Pokémon in the Pokedex, this is because we only had 2. We have put them several times so that you can see how the Pokedex would be and how it would adapt with several Pokemon, although only two of them are functional. The battle section allows you to fight pokemon battles alone and with another player. In the practice section you can see the pokemons available and watch their animations and attacks. As for language switching, we experienced a compatibility error in Windows 11, so if it doesn't work the first time you press the button, you have to press it again and select the language again.</value>
+  </data>
   <data name="tbBienvenido.Text" xml:space="preserve">
     <value>Welcome to IPOKémon!</value>
   </data>
