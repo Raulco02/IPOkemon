@@ -9,7 +9,27 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBox Text="Estás en acerca de" FontSize="35"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="53*"/>
+            <ColumnDefinition Width="1394*"/>
+            <ColumnDefinition Width="54*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200*"/>
+            <RowDefinition Height="598*"/>
+            <RowDefinition Height="200*"/>
+            <RowDefinition Height="51*"/>
+        </Grid.RowDefinitions>
+        <Viewbox Grid.Column="1" Grid.Row="1">
+            <TextBox TextWrapping="Wrap" IsEnabled="False" Width="477" Text="Este proyecto ha sido realizado por Raúl Calzado Olmo y Pedro Campos Castellanos. En la Pokedex hay Pokémon repetidos porque solo teníamos 2 y los hemos puesto varias veces para que veas como sería la Pokedex y como se iría adaptando con varios Pokemon. En cuanto al cambio de idioma, si no funciona a la primera debes darle otra vez al botón y seleccionar de nuevo el idioma."/>
+        </Viewbox>
+
+
+
+
+
+
+
     </Grid>
 </Page>
 

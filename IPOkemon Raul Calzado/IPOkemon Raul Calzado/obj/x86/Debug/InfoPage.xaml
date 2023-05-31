@@ -30,16 +30,16 @@
             <TextBlock x:ConnectionId='5' x:Name="tbDescripcionPokemon" TextWrapping="Wrap" Text="" Width="260" FontSize="10" Height="42" FontStyle="Italic"/>
         </Viewbox>
         <Viewbox Grid.Column="1" Grid.Row="3" Margin="0,0,12,3">
-            <TextBlock x:Uid="AlturaPokemon" TextWrapping="Wrap" Text="Altura" Width="95" HorizontalAlignment="Center" Height="24"/>
+            <TextBlock x:Uid="AlturaPokemon" TextWrapping="Wrap" Text="Altura" Width="63" HorizontalAlignment="Center" Height="24"/>
         </Viewbox>
         <Viewbox Grid.Column="2" Grid.Row="3" Margin="0,0,0,3">
-            <TextBlock x:Uid="PesoPokemon" TextWrapping="Wrap" Text="Peso" Width="95" Height="24"/>
+            <TextBlock x:Uid="PesoPokemon" TextWrapping="Wrap" Text="Peso" Width="110" Height="24"/>
         </Viewbox>
         <Viewbox Grid.Column="1" Grid.Row="4">
-            <TextBlock x:ConnectionId='4' x:Name="tbAlturaPokemon" TextWrapping="Wrap" Text="TextBlock" Width="134" Height="25"/>
+            <TextBlock x:ConnectionId='4' x:Name="tbAlturaPokemon" TextWrapping="Wrap" Text="TextBlock" Width="92" Height="25"/>
         </Viewbox>
         <Viewbox Grid.Column="2" Grid.Row="4">
-            <TextBlock x:ConnectionId='3' x:Name="tbPesoPokemon" TextWrapping="Wrap" Text="TextBlock" Width="127" Height="25"/>
+            <TextBlock x:ConnectionId='3' x:Name="tbPesoPokemon" TextWrapping="Wrap" Text="TextBlock" Width="149" Height="25"/>
         </Viewbox>
         <Viewbox Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Margin="0,0,7,0">
             <TextBlock x:ConnectionId='2' x:Name="tbNombrePokemon" HorizontalAlignment="Center" Grid.Row="2" TextTrimming="CharacterEllipsis" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Grid.ColumnSpan="3" Height="77" Width="612" FontSize="36" FontWeight="Bold"/>
